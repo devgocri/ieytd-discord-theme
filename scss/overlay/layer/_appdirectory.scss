@@ -7,7 +7,7 @@
 #{$root} .directoryContainer_da3f59 {
     background: $black;
 
-    .logo_cac7c5 {
+    .logo_b0f834 {
         color: $cream;
         zoom: 1.4;
         margin-top: 4px;
@@ -32,17 +32,17 @@
     }
 
     // Carousel nav
-    .themedPagination_af6b5a {
-        .arrow_af6b5a {
+    .themedPagination__00dfb {
+        .arrow__00dfb {
             color: $cream;
         }
-        .dot_af6b5a {
+        .dot__00dfb {
             background: $cream;
         }
     }
 
     // Smaller app cards
-    .anchor_af404b {
+    .anchor_edefb8 {
         text-decoration: none;
 
         .listingDescription_d2c3da {
@@ -64,7 +64,7 @@
             display: none;
         }
 
-        .moreGuilds_b3d866 {
+        .moreGuilds__52091 {
             background: $cream;
             color: $black !important;
         }
@@ -120,7 +120,7 @@
 .headerSidebar_a1eac2 {
     border-bottom: 0;
 }
-.defaultIcon_b3d866,
+.defaultIcon__52091,
 .iconInteractive_a1eac2,
 .iconInteractive_a1eac2:hover {
     color: $cream;
@@ -135,13 +135,13 @@
 .detailedDescription_a1eac2 {
     color: $cream !important;
 
-    &.markdown_d7f12d {
+    &.markdown_d285a6 {
         code {
             background: unset;
             font-family: var(--font-code);
         }
 
-        .codeInline_d7f12d {
+        .codeInline_d285a6 {
             color: $cream;
         }
     }
@@ -167,13 +167,13 @@
 }
 
 // Privacy
-.list_a06168,
+.list__83c7c,
 .intentsContainer_f6d180 {
     @include card.large;
 }
 
 // Support server
-.card_b5d566 {
+.card__6faf3 {
     @include card.large;
 }
 
@@ -191,10 +191,10 @@
 }
 
 // Categories
-.themed_a0 {
+.themed_b3f026 {
     @include card.round;
 
-    &.selected_a0 {
+    &.selected_b3f026 {
         background: $cream;
         border-color: $black;
 

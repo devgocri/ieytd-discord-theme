@@ -1,11 +1,11 @@
 @use "../top/vars" as *;
 
-.content_a4d4d9 {
+.content_c48ade {
     border: solid $cream;
     border-width: $size-s $size-m $size-s 0;
 }
 
-.chat_a7d72e {
+.chat_f75fb0 {
     overflow: hidden;
     background: $black;
 }
@@ -18,7 +18,7 @@
     line-height: 28px;
 
     &,
-    .overflow_c74e70 {
+    .overflow__82b15 {
         color: $black;
     }
 }
@@ -26,42 +26,42 @@
 // Rounding based on notice banner presence
 
 // Without banner
-.base_a4d4d9 {
+.base_c48ade {
     // Sidebar
-    .sidebar_a4d4d9,
-    .sidebar_a4d4d9.hasNotice_a4d4d9 {
+    .sidebar_c48ade,
+    .sidebar_c48ade.hasNotice_c48ade {
         border-radius: $size-l 0 0 $size-l;
     }
 
     // Main chat
-    .chat_a7d72e,
+    .chat_f75fb0,
     .pageWrapper_a3a4ce,
-    .sidebar_a4d4d9 + .scroller_a39aa3 {
+    .sidebar_c48ade + .scroller_a39aa3 {
         border-radius: 0 $size-l $size-l 0;
     }
 
     // Split chat
-    .container_d1c246:not(.floating_d1c246),
-    .sidebarContianer_d2194f .profileThemedContainer_d2194f {
+    .container__01ae2:not(.floating__01ae2),
+    .sidebarContainer__656be .profileThemedContainer__656be {
         border-radius: $size-l;
     }
 }
 
 // With banner
-.base_a4d4d9:has(.bd-notice, .notice__5fd4c) {
-    .sidebar_a4d4d9,
-    .sidebar_a4d4d9.hasNotice_a4d4d9 {
+.base_c48ade:has(.bd-notice, .notice__5fd4c) {
+    .sidebar_c48ade,
+    .sidebar_c48ade.hasNotice_c48ade {
         border-top-left-radius: 0;
     }
 
-    .chat_a7d72e,
+    .chat_f75fb0,
     .pageWrapper_a3a4ce,
-    .sidebar_a4d4d9 + .scroller_a39aa3 {
+    .sidebar_c48ade + .scroller_a39aa3 {
         border-top-right-radius: 0;
     }
 
-    .container_d1c246:not(.floating_d1c246),
-    .sidebarContianer_d2194f .profileThemedContainer_d2194f {
+    .container__01ae2:not(.floating__01ae2),
+    .sidebarContainer__656be .profileThemedContainer__656be {
         border-radius: 0 0 $size-l $size-l;
     }
 }

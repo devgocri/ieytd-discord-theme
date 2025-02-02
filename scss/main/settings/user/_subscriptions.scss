@@ -2,43 +2,43 @@
 @use "../../../top/card";
 @use "../../../top/filter";
 
-.sectionDescription_a206c7,
-.accountCreditDescription_e70817 {
+.sectionDescription_e335a7,
+.accountCreditDescription__70151 {
     color: $cream;
 }
 
 // Current nitro
-.banner_b12c98 {
+.banner__84995 {
     @include card.large;
     color: $cream;
 
     // Cancelled or failed payment
-    &.canceled_b12c98,
-    &.failedPayment_b12c98 {
+    &.canceled__84995,
+    &.failedPayment__84995 {
         background: $red;
 
-        .planInfo_b12c98,
-        .planName_b12c98 {
+        .planInfo__84995,
+        .planName__84995 {
             color: $black;
         }
     }
 
-    .image_b12c98 {
+    .image__84995 {
         @include filter.sepia;
     }
 }
 
 // Payment details
-.detailsBlock_a206c7 {
+.detailsBlock_e335a7 {
     @include card.large;
     color: $cream;
 }
 
 // Subscription credits
-.noItemsCard_e70817 {
+.noItemsCard__70151 {
     color: $cream;
 
-    .noItemsIcon_e70817 {
+    .noItemsIcon__70151 {
         background: $red;
         color: $black;
     }

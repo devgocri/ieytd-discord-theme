@@ -3,50 +3,50 @@
 
 // Current game
 #{$root} {
-    .nowPlaying_fd966d {
+    .nowPlaying_cc46f0 {
         @include card.large;
 
-        :is(.gameName_fd966d, .lastPlayed_fd966d, .overlayStatusText__668e1) {
+        :is(.gameName_cc46f0, .lastPlayed_cc46f0, .overlayStatusText__668e1) {
             color: $cream;
         }
 
-        .toggleIconOn_fd966d .fill_fd966d {
+        .toggleIconOn_cc46f0 .fill_cc46f0 {
             fill: $cream;
         }
 
-        .toggleIconOff_fd966d :is(.fill_fd966d, rect) {
+        .toggleIconOff_cc46f0 :is(.fill_cc46f0, rect) {
             fill: $red;
         }
     }
 
-    .notDetected_fd966d {
+    .notDetected_cc46f0 {
         @include card.large;
         border-color: $red;
 
-        :is(.gameName_fd966d, .lastPlayed_fd966d, .overlayStatusText__668e1) {
+        :is(.gameName_cc46f0, .lastPlayed_cc46f0, .overlayStatusText__668e1) {
             color: $red;
         }
     }
 }
 
 // Not seeing your game
-#{$root} .nowPlayingAdd_fd966d {
+#{$root} .nowPlayingAdd_cc46f0 {
     color: $cream;
 }
 
 // Added games
-#{$root} .game_fd966d {
+#{$root} .game_cc46f0 {
     box-shadow: none;
 
-    :is(.gameName_fd966d, .lastPlayed_fd966d, .overlayStatusText__668e1) {
+    :is(.gameName_cc46f0, .lastPlayed_cc46f0, .overlayStatusText__668e1) {
         color: $cream;
     }
 
-    .toggleIconOn_fd966d .fill_fd966d {
+    .toggleIconOn_cc46f0 .fill_cc46f0 {
         fill: $cream;
     }
 
-    .toggleIconOff_fd966d :is(.fill_fd966d, rect) {
+    .toggleIconOff_cc46f0 :is(.fill_cc46f0, rect) {
         fill: $red;
     }
 }

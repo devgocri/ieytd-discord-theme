@@ -3,19 +3,19 @@
 
 // Activities suggestion on hover in voice chat panel
 
-.container_b572de {
+.container__9fa5a {
     @include card.outer;
 
-    .titleContainer_b572de :is(path, polygon)[fill] {
+    .titleContainer__9fa5a :is(path, polygon)[fill] {
         fill: $cream;
     }
 
-    .activityItem_ec77c5 {
+    .activityItem__8a940 {
         @include card.large;
         transform: none !important;
     }
 
-    .wumpusRocketOuterContainer_b572de {
+    .wumpusRocketOuterContainer__9fa5a {
         display: none;
     }
 }

@@ -3,25 +3,25 @@
 @use "../../top/filter";
 
 // Welcome and set name in student hub
-.formImage_bacf97 {
+.formImage__23a6b {
     @include filter.sepia;
 }
 
 // Add server to student hub
-.tabBar_f1b3cc.top_a0 {
+.tabBar__66057.top_b3f026 {
     padding-top: 0;
     margin-top: 0;
     width: calc(100% + 18px);
 }
 
-.guildList_f1b3cc {
+.guildList__66057 {
     margin-top: 0;
     padding-top: $size-m;
 
-    .guildRow_f1b3cc {
+    .guildRow__66057 {
         @include card.large;
 
-        .icon_f11207 {
+        .icon_f34534 {
             background: $red;
             border: $size-xs solid $cream;
         }

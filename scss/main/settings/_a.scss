@@ -3,21 +3,21 @@
 @use "../../top/card";
 @use "../../top/svg";
 
-.layer_d4b6c5,
-.standardSidebarView_c25c6d {
+.layer__960e4,
+.standardSidebarView__23e6b {
     background: transparent;
     gap: $size-m;
 }
 
 // Menu
-.sidebarRegion_c25c6d {
+.sidebarRegion__23e6b {
     max-width: 312px;
 
-    .sidebarRegionScroller_c25c6d {
+    .sidebarRegionScroller__23e6b {
         background: $red;
     }
 
-    .sidebar_c25c6d {
+    .sidebar__23e6b {
         padding: 0 0 $size-m;
 
         &::before {
@@ -32,7 +32,7 @@
     }
 
     // Title
-    .header_a0:first-child {
+    .header_b3f026:first-child {
         padding-top: 6px;
     }
     .eyebrow_e5a66c {
@@ -44,16 +44,16 @@
     }
 
     // Entry
-    :is(.item_a0.themed_a0, .item_a0.themed_a0:hover:not(.disabled_a0)) {
+    :is(.item_b3f026.themed_b3f026, .item_b3f026.themed_b3f026:hover:not(.disabled_b3f026)) {
         @include card.round;
 
-        &.selected_a0 {
+        &.selected_b3f026 {
             background: $cream;
             color: $black;
             border-color: $black;
         }
 
-        .selected_ae3c77 {
+        .selected_e681d1 {
             color: $black;
 
             path {
@@ -63,14 +63,14 @@
     }
 
     // Nitro
-    .selectedBackground_ae3c77 {
+    .selectedBackground_e681d1 {
         display: none;
     }
-    .premiumLabel_ae3c77 svg {
+    .premiumLabel_e681d1 svg {
         @include filter.sepia;
     }
-    .serverBoostTabItem_f7189e {
-        .icon_f7189e {
+    .serverBoostTabItem_cbe0b4 {
+        .icon_cbe0b4 {
             fill: $cream;
         }
 
@@ -78,46 +78,46 @@
             background: $cream !important;
             color: $black !important;
 
-            .icon_f7189e {
+            .icon_cbe0b4 {
                 fill: $black !important;
             }
         }
     }
 
     // External site icon
-    .linkIcon_ebb2c7 {
+    .linkIcon__352b7 {
         color: $cream;
     }
 
     // Social media icons
-    .socialLinks_c44e94 {
+    .socialLinks__7df54 {
         display: flex;
         justify-content: space-evenly;
         margin-top: $size-m;
-        .link_c44e94 {
+        .link__7df54 {
             color: $cream;
         }
     }
 
     // Build info
-    .line_c5a741 {
+    .line__2debe {
         color: $cream !important;
     }
 }
 
 // Content
-.contentRegion_c25c6d {
+.contentRegion__23e6b {
     background: $black;
-    .contentRegionScroller_c25c6d {
+    .contentRegionScroller__23e6b {
         background: $black;
     }
 }
 
 // Streamer mode
-.streamerModeEnabledImage_c50c8b {
+.streamerModeEnabledImage_aa3ffd {
     @include filter.sepia;
 }
-.streamerModeEnabledBtn_c50c8b {
+.streamerModeEnabledBtn_aa3ffd {
     @include card.round;
 
     &:hover {
@@ -126,11 +126,11 @@
 }
 
 // Close button
-:is(.closeButton_df5532, .keybind_df5532) {
+:is(.closeButton_c2b141, .keybind_c2b141) {
     color: $cream;
 
     &:hover,
-    &:hover + .keybind_df5532 {
+    &:hover + .keybind_c2b141 {
         color: $cream;
         background: unset;
     }
@@ -148,7 +148,7 @@
             overflow: visible;
         }
 
-        .breadcrumbInactive_f9e5d0 {
+        .breadcrumbInactive_befe67 {
             &,
             &:hover {
                 color: $red;
@@ -163,13 +163,13 @@
 }
 
 // Back button
-.backButton_a4e2c3 {
+.backButton__008b2 {
     color: $cream;
 }
 
 // Unsaved changes
-.noticeRegion_c25c6d {
-    .container_b6cd66 {
+.noticeRegion__23e6b {
+    .container_fcf29c {
         @include card.outer;
         background: $red !important;
         box-shadow: none;

@@ -1,13 +1,13 @@
 @use "../../../top/vars" as *;
 @use "../../../top/filter";
 
-.emptyStateImage_e8af36 {
+.emptyStateImage_d4883c {
     @include filter.sepia;
 }
 
 #{$root} {
-    .emptyStateHeader_e8af36,
-    .emptyStateSubtext_e8af36 {
+    .emptyStateHeader_d4883c,
+    .emptyStateSubtext_d4883c {
         color: $cream;
     }
 }

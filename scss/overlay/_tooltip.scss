@@ -3,24 +3,24 @@
 // Tooltips
 
 #{$root} {
-    .tooltip_b6c360 {
+    .tooltip__382e7 {
         background: $cream;
         color: $black;
         border: $size-xs solid $black;
         border-radius: $size-xl;
 
         // Pointer
-        .tooltipPointer_b6c360 {
+        .tooltipPointer__382e7 {
             border-top-color: $black;
         }
 
         // Server type
-        .flowerStar_ff7d90 {
+        .flowerStar__3e3b0 {
             path {
                 fill: $black;
             }
         }
-        .childContainer_ff7d90 path {
+        .childContainer__3e3b0 path {
             fill: $cream;
         }
 
@@ -28,19 +28,19 @@
         div:where([style^="color"]) {
             color: $black !important;
         }
-        .guildNameText_a6ae3c,
+        .guildNameText_b1f768,
         .defaultColor__77578,
-        .activityIcon_a6ae3c {
+        .activityIcon_b1f768 {
             color: $black;
         }
 
         // Server muted
-        .muteText_a6ae3c {
+        .muteText_b1f768 {
             color: $red !important;
         }
 
         // Listeners
-        .stageListenerPill_a6ae3c {
+        .stageListenerPill_b1f768 {
             background: $black;
             color: $cream;
             div {
@@ -51,18 +51,18 @@
 }
 
 // More users
-.moreUsers_c47562 {
+.moreUsers__183c2 {
     background: $black;
     color: $cream;
 }
 
-.tooltipOverrideColor_ee69e0 {
+.tooltipOverrideColor__2637a {
     background: $cream;
     color: $black;
     border: $size-s solid $black;
     border-radius: $size-xl;
 
-    &.caretTopCenter_dafa63:after {
+    &.caretTopCenter__675aa:after {
         border-bottom-color: $black;
     }
 
@@ -70,7 +70,7 @@
         color: $black;
     }
 
-    .content_dafa63 {
+    .content__675aa {
         color: $red !important;
     }
 }

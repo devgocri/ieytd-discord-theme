@@ -9,21 +9,21 @@
 }
 
 // Boost requirement tags
-.availabilityIndicator_b29edb,
-.guildFeatureAvailabilityIndicator_f0a9ff {
+.availabilityIndicator__40463,
+.guildFeatureAvailabilityIndicator_cd0bbe {
     align-items: baseline;
     background: unset;
     margin-bottom: 0;
 }
 
 // Bot tag
-.px_a02df3.botTag_a02df3,
-.rem_a02df3.botTag_a02df3 {
+.px__82f07.botTag__82f07,
+.rem__82f07.botTag__82f07 {
     border-radius: $size-max;
 }
 
 // OP tag
-.rem_a02df3.botTag_a02df3.botTagOP_e48ddb {
+.rem__82f07.botTag__82f07.botTagOP_e48ddb {
     border-radius: $size-max;
     position: relative;
     margin-top: 0;
@@ -37,7 +37,7 @@
 }
 
 // Safety setup > Activity alerts channel
-.valuePill_e1b877 {
+.valuePill__5dac8 {
     background: $cream;
     color: $black !important;
 }

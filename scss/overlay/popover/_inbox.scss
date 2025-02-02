@@ -4,18 +4,18 @@
 @use "../../top/tabs";
 @use "../../top/pip";
 
-.header_f0cd33 {
-    .inboxIcon_f0cd33 {
+.header_ab6641 {
+    .inboxIcon_ab6641 {
         color: $cream;
     }
 
-    .inboxTitle_f0cd33 {
+    .inboxTitle_ab6641 {
         font-family: var(--font-display);
         font-size: 22px;
         line-height: 26px;
     }
 
-    .friendRequestsButton_c0c071,
+    .friendRequestsButton__523aa,
     .secondary__45d4f {
         @include card.round;
 
@@ -33,7 +33,7 @@
     }
 
     // Tabs
-    .topPill_a0 {
+    .topPill_b3f026 {
         padding-top: 16px;
         padding-left: 0;
 
@@ -45,23 +45,23 @@
 }
 
 // Channel group
-.channelHeader_f3978e {
+.channelHeader__35a7e {
     background: $black;
 
-    .channelName_f3978e {
+    .channelName__35a7e {
         svg {
             zoom: 1.2;
         }
 
-        .channelNameSpan_f3978e {
+        .channelNameSpan__35a7e {
             font-size: 18px;
             line-height: 24px;
             margin: -$size-s 0 0 $size-s;
         }
     }
 
-    .dmIcon_f3978e,
-    .guildIcon_f3978e {
+    .dmIcon__35a7e,
+    .guildIcon__35a7e {
         border-radius: $size-max;
         border: $size-s solid $cream;
         background: $red;
@@ -69,27 +69,27 @@
 }
 
 // Message
-.messageContainer_ddb5b4,
-.messages_c06487 {
+.messageContainer__95796,
+.messages__1ccd1 {
     background: unset;
 }
 
-.jumpButton_ac3dc2 {
+.jumpButton_ed0c8c {
     @include card.round;
     padding-top: 0;
 
-    &:hover.text_ac3dc2,
-    .text_ac3dc2 {
+    &:hover.text_ed0c8c,
+    .text_ed0c8c {
         color: $cream;
     }
 }
 
 // For you
-.container_fe1358 {
+.container__0f711 {
     background: unset;
 
     // Unread activity
-    .unread_fd8ff1 {
+    .unread__6fddf {
         @include pip.pip($COLOR: $cream);
         left: 0;
         top: 24px;
@@ -106,12 +106,12 @@
 }
 
 // No messages
-.iconContainer_b0914a {
-    .icon_b0914a {
+.iconContainer_d404a3 {
+    .icon_d404a3 {
         color: $black;
         background: $cream;
     }
-    .stars_b0914a path {
+    .stars_d404a3 path {
         fill: $cream;
     }
 }

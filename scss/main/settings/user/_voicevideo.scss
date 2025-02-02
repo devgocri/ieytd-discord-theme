@@ -20,10 +20,10 @@
 }
 
 // Soundboard
-.soundButtonSettingContainer_c801bb {
+.soundButtonSettingContainer__84bad {
     @include card.round;
 
-    .secondaryButton_f40049 {
+    .secondaryButton__6d4ed {
         color: $cream;
 
         path[fill="var(--red-400)"] {
@@ -33,37 +33,37 @@
 }
 
 // Video preview
-.cameraWrapper_ff1ac9 {
+.cameraWrapper_d41d5f {
     @include card.large;
 
-    .previewImage_ff1ac9 {
+    .previewImage_d41d5f {
         @include filter.sepia;
     }
 }
 
 // Video background
-.backgroundOptions_ad7d79 {
+.backgroundOptions__53965 {
     margin-bottom: 16px;
 
-    .backgroundOption_ad7d79 {
-        .backgroundOptionInner_ad7d79 {
+    .backgroundOption__53965 {
+        .backgroundOptionInner__53965 {
             border-radius: $size-m;
             background: unset;
         }
 
         // Info
-        .backgroundOptionContent_ad7d79 {
+        .backgroundOptionContent__53965 {
             color: $cream;
         }
 
         // Selected
-        .backgroundOptionRing_ad7d79 {
+        .backgroundOptionRing__53965 {
             border-radius: $size-l;
             border: $size-s solid $cream;
         }
 
         // Animation icon
-        .playIcon_ad7d79 {
+        .playIcon__53965 {
             color: $cream;
         }
     }

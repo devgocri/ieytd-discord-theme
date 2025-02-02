@@ -5,28 +5,28 @@
 // Onboarding introduction
 
 // Art
-.islands_aa7c25 {
+.islands_d9161f {
     @include filter.sepia;
 }
 
 // Outer boxes
-.testimonialHeroContainer_d3081b,
-.upsellPreview_aa7c25 {
+.testimonialHeroContainer__3e7e2,
+.upsellPreview_d9161f {
     @include card.large;
     overflow: visible;
 }
 
 // Channels and roles demo
-.previewListItem_aa7c25 {
+.previewListItem_d9161f {
     @include card.round;
     overflow: visible;
 
-    &.selected_aa7c25 {
+    &.selected_d9161f {
         background: unset;
     }
 
     // Real channel icon
-    .channelIcon_aa7c25 {
+    .channelIcon_d9161f {
         color: $cream;
     }
 
@@ -36,20 +36,20 @@
     }
 
     // Checkmark
-    .checkboxCircle_aa7c25 {
+    .checkboxCircle_d9161f {
         background: $cream;
 
-        .checkmark_aa7c25 {
+        .checkmark_d9161f {
             color: $black;
         }
     }
 }
 
 // Suggested actions demo
-.action_e3f878 {
+.action_c66e86 {
     @include card.round;
 
-    .checkCircleCompleted_e3f878 {
+    .checkCircleCompleted_c66e86 {
         color: $cream;
 
         circle {
@@ -57,10 +57,10 @@
         }
     }
 
-    .channelIconContainer_e3f878,
-    .rulesIconContainer_e3f878 {
+    .channelIconContainer_c66e86,
+    .rulesIconContainer_c66e86 {
         background: unset;
-        .channelIcon_e3f878 {
+        .channelIcon_c66e86 {
             zoom: 2;
             color: $cream;
         }

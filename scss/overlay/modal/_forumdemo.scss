@@ -3,56 +3,56 @@
 @use "../../top/filter";
 
 // Try out forums
-.container_d66623 {
+.container_ee8e87 {
     margin-top: 0;
     background: $black;
 
     // Forum panel
-    .browser_d66623 {
+    .browser_ee8e87 {
         // Tag
-        .tag_d66623,
-        .inlineTag_d66623 {
+        .tag_ee8e87,
+        .inlineTag_ee8e87 {
             background: $cream;
             color: $black !important;
         }
 
         // Post
-        .post_d66623 {
+        .post_ee8e87 {
             @include card.large;
 
-            .bullet_d66623 {
+            .bullet_ee8e87 {
                 display: none;
             }
         }
     }
 
     // Thread panel
-    .previewContainer_d66623 {
+    .previewContainer_ee8e87 {
         background: $black;
         border-left: $size-s solid $cream;
         padding: 0;
         height: 100%;
 
-        .preview_d66623 {
+        .preview_ee8e87 {
             background: unset;
         }
 
-        .forumPostIcon_d66623,
-        .opTag_d66623 {
+        .forumPostIcon_ee8e87,
+        .opTag_ee8e87 {
             background: $cream;
             color: $black;
         }
 
-        .topSeparator_d66623,
-        .bottomSeparator_d66623 {
+        .topSeparator_ee8e87,
+        .bottomSeparator_ee8e87 {
             display: none;
         }
 
-        .fakeReactions_d66623 {
+        .fakeReactions_ee8e87 {
             @include card.round;
         }
 
-        .chatInput_d66623 {
+        .chatInput_ee8e87 {
             @include card.round;
         }
     }

@@ -2,55 +2,55 @@
 @use "../../top/card";
 
 // Current happenings in voice channel
-.container_e88961 {
+.container__4e30a {
     @include card.outer;
 
     // Channel info
-    @at-root .popoutHeaderContainer_e88961 {
+    @at-root .popoutHeaderContainer__4e30a {
         // Channel icon
-        @at-root .channelIcon_aab567 {
+        @at-root .channelIcon__628e6 {
             color: $cream;
         }
 
         // Connected users
-        @at-root .container_c23582 {
+        @at-root .container_b1bfd4 {
             background: $cream;
 
-            @at-root .peopleIcon_c23582 {
+            @at-root .peopleIcon_b1bfd4 {
                 color: $black;
             }
-            .userCountText_c23582 {
+            .userCountText_b1bfd4 {
                 color: $black !important;
             }
         }
     }
 
     // No dividers
-    .headerDivider_e88961 {
+    .headerDivider__4e30a {
         display: none;
     }
-    .activity_d5aa01 + .activity_d5aa01 {
+    .activity__7ba6e + .activity__7ba6e {
         border-top: 0;
     }
 
     // Interact with activity button
-    .button_d5aa01 {
+    .button__7ba6e {
         &,
         &:hover {
             color: $cream;
         }
     }
 
-    .activityVoiceChannel_d5089b {
-        .activityName_d5089b,
-        .name_d5089b,
-        .nameNormal_d5089b,
-        .nameWrap_d5089b,
-        .content_d5089b,
-        .details_d5089b,
-        .playTime_d5089b,
-        .state_d5089b,
-        .timestamp_d5089b {
+    .activityVoiceChannel__2ef49 {
+        .activityName__2ef49,
+        .name__2ef49,
+        .nameNormal__2ef49,
+        .nameWrap__2ef49,
+        .content__2ef49,
+        .details__2ef49,
+        .playTime__2ef49,
+        .state__2ef49,
+        .timestamp__2ef49 {
             color: $cream;
         }
     }

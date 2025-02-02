@@ -2,30 +2,30 @@
 @use "../top/card";
 
 // Very outer
-.container_a6d69a {
+.container_f369db {
     background: unset;
 }
 
 // Header
-.mainCard_a6d69a {
+.mainCard_f369db {
     @include card.xlarge;
 
-    .titleContainer_c1668f {
+    .titleContainer_d9be46 {
         align-items: center;
     }
 
-    .forumPostFormButton_c1668f,
-    .searchIcon_c1668f,
-    .closeIcon_c1668f,
+    .forumPostFormButton_d9be46,
+    .searchIcon_d9be46,
+    .closeIcon_d9be46,
     .mediaIcon__5d208,
-    .slowModeIcon_fbe485,
-    .uploadIcon_a15d29,
-    .uploadInput_a15d29:hover .uploadIcon_a15d29 {
+    .slowModeIcon__7391f,
+    .uploadIcon__94439,
+    .uploadInput__94439:hover .uploadIcon__94439 {
         color: $cream;
     }
 
     // Post title / search
-    .title_c1668f {
+    .title_d9be46 {
         border: 0;
         border-radius: 0;
         margin: 0;
@@ -35,112 +35,112 @@
     }
 
     // Add attachment
-    .uploadInput_a15d29 {
+    .uploadInput__94439 {
         @include card.large;
     }
 
     // Post content
-    .scrollableContainer_d0696b {
+    .scrollableContainer__74017 {
         border-radius: 0;
         border: 0;
         cursor: text;
     }
-    .placeholder_a552a6 {
+    .placeholder__1b31f {
         color: $cream;
     }
 
     // Preview
-    @at-root .previewForm_c1668f {
+    @at-root .previewForm_d9be46 {
         border: $size-xs dashed $cream;
         border-radius: $size-m;
         background: unset;
     }
 
     // Tags
-    .tagsContainer_c1668f .tagsIcon_c1668f,
-    .tagsDivider_c1668f {
+    .tagsContainer_d9be46 .tagsIcon_d9be46,
+    .tagsDivider_d9be46 {
         display: none;
     }
 
-    .tagsButton_c1668f {
+    .tagsButton_d9be46 {
         color: $red;
-        .tagsButtonInner_c1668f {
+        .tagsButtonInner_d9be46 {
             color: $red;
         }
     }
 }
 
 // Shift enter
-.matchingPostsRow_a6d69a {
+.matchingPostsRow_f369db {
     background: unset;
 }
 
 // Post guidelines
-.container_ddbb27 {
+.container_ca49a1 {
     @include card.large;
 
     // Header
-    @at-root .headerContainer_ddbb27 {
+    @at-root .headerContainer_ca49a1 {
         // Book icon
-        @at-root .guidelinesHeader_ddbb27 svg {
+        @at-root .guidelinesHeader_ca49a1 svg {
             zoom: 1.6;
         }
 
         // Close icon
-        .clickable_ddbb27 {
+        .clickable_ca49a1 {
             color: $cream;
         }
     }
 
     // Guidelines container
-    .descriptionContainer_ddbb27 {
+    .descriptionContainer_ca49a1 {
         background: unset;
     }
 
     // Links in guidelines
-    .guidelines_ddbb27 a {
+    .guidelines_ca49a1 a {
         color: $red;
     }
 
     // Show more
-    @at-root .showMore_ddbb27 {
-        @at-root .gradient_ddbb27 {
+    @at-root .showMore_ca49a1 {
+        @at-root .gradient_ca49a1 {
             background: linear-gradient(to top, $black, transparent);
         }
-        @at-root .linkContainer_ddbb27 {
+        @at-root .linkContainer_ca49a1 {
             background: $black;
         }
     }
 }
 
 // Sort and view
-.sortDropdown_a6d69a {
+.sortDropdown_f369db {
     @include card.round;
     overflow: visible;
 
-    .sortDropdownInner_a6d69a {
+    .sortDropdownInner_f369db {
         color: $cream;
     }
 }
 
-.divider_a6d69a {
+.divider_f369db {
     width: 0;
     margin-left: 0;
 }
 
 // Tags
-.pill_c993da {
+.pill_a2c9e8 {
     @include card.round;
 
-    &.clickable_c993da:not(.disabled_c993da):hover {
+    &.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
         background: $black;
     }
 
-    #{$root} &.selected_c993da {
+    #{$root} &.selected_a2c9e8 {
         border-color: $cream;
 
         &,
-        &.clickable_c993da:not(.disabled_c993da):hover {
+        &.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
             background: $cream;
         }
 
@@ -151,25 +151,25 @@
 }
 
 // All tags
-.tagsButton_a6d69a {
+.tagsButton_f369db {
     @include card.round;
 
-    .tagsButtonInner_a6d69a {
+    .tagsButtonInner_f369db {
         color: $cream;
     }
 }
 
 // Selected tags count
-:is(.countContainer_a6d69a, .countContainer_a6d69a) {
+:is(.countContainer_f369db, .countContainer_f369db) {
     background: $cream;
     margin-left: 0;
-    :is(.countText_a6d69a, .countText_a6d69a) {
+    :is(.countText_f369db, .countText_f369db) {
         color: $black;
     }
 }
 
 // Post
-.container_d331f1 {
+.container_faa96b {
     &:hover {
         transform: none;
         background: unset;
@@ -181,42 +181,42 @@
     }
 
     // Post author
-    .author_c2ac9c a,
-    .author_c2ac9c.hasUnreads_c2ac9c a {
+    .author_d3eee8 a,
+    .author_d3eee8.hasUnreads_d3eee8 a {
         color: $cream;
     }
 
     // Post info
-    .messageCountIcon_d331f1,
-    .messageCountText_d331f1 {
+    .messageCountIcon_faa96b,
+    .messageCountText_faa96b {
         color: $cream;
     }
 
-    .bullet_d331f1 {
+    .bullet_faa96b {
         display: none;
     }
 }
 
 // Loading post
-.loadingCard_a6d69a {
+.loadingCard_f369db {
     @include card.xlarge;
     opacity: 0.3;
 }
 
 // No posts with tag
-.container_a03b48 {
+.container__93db4 {
     background: unset;
 
-    .stars_a03b48 path {
+    .stars__93db4 path {
         fill: $cream;
     }
 
-    .icon_a03b48 {
+    .icon__93db4 {
         background: $cream;
         color: $black;
     }
 
-    .cta_a03b48 {
+    .cta__93db4 {
         &,
         &:hover {
             color: $red;
@@ -225,27 +225,27 @@
 }
 
 // Forum post controls
-.container_b385c8 {
+.container__34c2c {
     background: unset;
     border-top: 0;
 
-    .addReactButton_b385c8 {
+    .addReactButton__34c2c {
         border: 0;
         background: unset;
         min-width: unset;
         font-size: 0;
 
-        & .icon_ec6b19,
-        &:hover .icon_ec6b19 {
+        & .icon__23977,
+        &:hover .icon__23977 {
             color: $cream;
         }
     }
 
     // Right side buttons
-    .buttonInner_b385c8 {
+    .buttonInner__34c2c {
         @include card.round;
 
-        &.active_b385c8 {
+        &.active__34c2c {
             background: $cream;
             color: $black;
         }
@@ -253,16 +253,16 @@
 }
 
 // Channel type
-.iconWrapper_e378b3 {
+.iconWrapper__7e6bb {
     display: none;
 }
 
 // Forum start conversation reminder
-.box_af45f8 {
+.box_ee23ac {
     display: none;
 }
 
 // Forum OP / replies divider
-.divider_af45f8 {
+.divider_ee23ac {
     display: none;
 }

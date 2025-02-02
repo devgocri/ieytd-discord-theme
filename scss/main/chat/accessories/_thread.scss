@@ -3,27 +3,27 @@
 @use "../../../top/filter";
 
 // Thread preview
-.container_c15230 {
+.container__9271d {
     @include card.large;
     background: $black;
     padding: 0;
 
-    .topLine_c15230,
-    .bottomLine_c15230 {
+    .topLine__9271d,
+    .bottomLine__9271d {
         padding: $size-s $size-m;
     }
 
-    .topLine_c15230 {
+    .topLine__9271d {
         background: $red;
         align-items: baseline;
 
-        .name_c15230,
-        .cta_c15230 {
+        .name__9271d,
+        .cta__9271d {
             color: $black;
         }
 
         // Thread title
-        .name_c15230 {
+        .name__9271d {
             font-family: var(--font-display);
             font-style: oblique;
             font-size: 1rem;
@@ -32,25 +32,25 @@
         }
 
         // Message count
-        .cta_c15230 {
+        .cta__9271d {
             font-size: 0.8rem;
         }
     }
 
-    .bottomLine_c15230 {
+    .bottomLine__9271d {
         color: $cream;
         align-items: baseline;
 
-        .threadMessageAccessory_ec86aa {
+        .threadMessageAccessory_c19a55 {
             align-items: baseline;
         }
 
-        .username_ec86aa {
+        .username_c19a55 {
             font-size: 0.875rem;
             margin-top: -4px;
         }
 
-        .timestamp_c15230 {
+        .timestamp__9271d {
             color: $cream;
             opacity: 0.7;
         }
@@ -58,7 +58,7 @@
 }
 
 // Thread line
-.cozy_ec86aa.hasThread_ec86aa::after {
+.cozy_c19a55.hasThread_c19a55::after {
     border-color: $cream;
     bottom: 29px + ($size-s * 2);
 

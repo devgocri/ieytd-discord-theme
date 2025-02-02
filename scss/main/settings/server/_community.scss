@@ -2,14 +2,14 @@
 @use "../../../top/card";
 
 // Notice
-.upsellContainer_d0de76 {
+.upsellContainer__4cfe2 {
     @include card.large;
 
-    .upsellClose_d0de76 {
+    .upsellClose__4cfe2 {
         color: $cream;
     }
 
-    .upsellFooter_d0de76 {
+    .upsellFooter__4cfe2 {
         background: unset;
     }
 }

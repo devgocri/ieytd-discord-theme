@@ -18,15 +18,15 @@
     @include card.large;
 }
 
-.error_f20685 {
+.error__6436f {
     @include card.med;
     border-color: $red;
 
-    .icon_f20685 {
+    .icon__6436f {
         color: $red;
     }
 
-    .text_f20685 {
+    .text__6436f {
         color: $red !important;
     }
 }

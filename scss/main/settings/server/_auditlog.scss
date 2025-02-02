@@ -12,20 +12,20 @@
     background-image: svg.$audit-arrow;
 }
 
-.content_cfe282 {
+.content__5906b {
     gap: $size-l;
 }
 
 // Log entries
 #{$root} {
-    .auditLog_eebd33 {
+    .auditLog__43dab {
         @include card.large;
         margin-bottom: $size-l;
 
         // Open arrow
         &,
         &:hover {
-            .expandForeground_eebd33 {
+            .expandForeground__43dab {
                 stroke: $cream;
             }
         }
@@ -37,20 +37,20 @@
     }
 
     // Inner
-    .headerClickable_eebd33,
-    .headerDefault_eebd33,
-    .headerExpanded_eebd33,
-    .changeDetails_eebd33 {
+    .headerClickable__43dab,
+    .headerDefault__43dab,
+    .headerExpanded__43dab,
+    .changeDetails__43dab {
         background: unset;
         color: $cream;
     }
 
     // Action type icon
-    .icon_eebd33 {
+    .icon__43dab {
         @include filter.sepia;
     }
 }
 
-.divider_eebd33 {
+.divider__43dab {
     display: none;
 }

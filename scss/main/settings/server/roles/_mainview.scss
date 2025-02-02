@@ -3,7 +3,7 @@
 @use "../../../../top/card";
 
 // Default permissions button
-.container_cc7b67 {
+.container_d8f25b {
     @include card.round;
 
     &:hover {
@@ -11,7 +11,7 @@
         color: $cream;
     }
 
-    .icon_cc7b67 {
+    .icon_d8f25b {
         background: unset;
 
         svg {
@@ -22,13 +22,13 @@
 
 // Roles list
 .emptyRoles_a930f1,
-.tableHeader_e72811,
+.tableHeader_db0ee9,
 .roleRow_a930f1 {
     margin-left: 0;
 }
 
 // Drag handle spacing
-.dragSpacing_e72811 {
+.dragSpacing_db0ee9 {
     zoom: 1.5;
 }
 

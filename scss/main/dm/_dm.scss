@@ -5,23 +5,23 @@
 // DM with user
 
 //
-.divider_dc0b54 {
+.divider_b50d96 {
     display: none;
 }
 
 // Wave to user
-.compactButton_fcbce6,
-.compactButtonDisabled_fcbce6 {
+.compactButton__7ff28,
+.compactButtonDisabled__7ff28 {
     @include card.round;
 }
-.compactButton_fcbce6:hover {
+.compactButton__7ff28:hover {
     background: $black;
 }
 
 // Channel name change message
-.channelNameChange_bfe4f5 {
+.channelNameChange__2f82d {
     color: $cream;
-    .content_e62b38 {
+    .content__235ca {
         align-items: baseline;
     }
 
@@ -31,7 +31,7 @@
 }
 
 // Actions
-.iconContainer_e62b38 {
+.iconContainer__235ca {
     @include filter.sepia;
 }
 
@@ -57,11 +57,11 @@
             width: auto;
         }
 
-        .iconWrapper_ce1058 {
+        .iconWrapper_a4a127 {
             color: $cream;
         }
 
-        .icon_f11207 {
+        .icon_f34534 {
             border-radius: $size-max;
             background-color: $red;
             border: $size-xs solid $cream;

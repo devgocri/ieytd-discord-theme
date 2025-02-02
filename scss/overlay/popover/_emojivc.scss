@@ -4,19 +4,19 @@
 @use "../../top/filter";
 
 // Emoji selector on hover / click in voice chat panel
-.container_bdea70 {
+.container__0800c {
     @include card.outer;
 
-    .emojiPickerHeader_bdea70 {
+    .emojiPickerHeader__0800c {
         background: unset;
         transition: background-color 0.5s;
 
-        &.emojiPickerHeaderExpanded_bdea70 {
+        &.emojiPickerHeaderExpanded__0800c {
             background: $red;
         }
 
         // Animation toggle
-        .label_b7d6f1 {
+        .label_df4aaf {
             @include card.round;
             background: svg.$tada center no-repeat;
             min-width: 22px;
@@ -27,7 +27,7 @@
             }
         }
 
-        .dropDown_bdea70 {
+        .dropDown__0800c {
             &,
             &:hover {
                 color: $cream;
@@ -36,22 +36,22 @@
     }
 
     // Emoji
-    .contents_dd4f85 {
+    .contents__201d5 {
         > div {
             transform: none !important;
         }
     }
 
     // Expanded emoji picker
-    .categoryList_c6ee36 {
+    .categoryList_c0e32c {
         top: 62px;
         border-radius: 0;
     }
     // Emojis
     // No emojis
-    .wrapper_e78f9e {
+    .wrapper__29ebd {
         color: $cream;
-        .sadImage_e78f9e {
+        .sadImage__29ebd {
             @include filter.sepia;
         }
     }

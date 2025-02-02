@@ -1,25 +1,25 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.sessions_c7a2c0 {
+.sessions__803f2 {
     // Groups
-    .children_a6ae9b {
+    .children__7bffb {
         @include card.large;
         margin-top: 16px;
     }
 
     // Session
-    .session_c7a2c0 {
+    .session__803f2 {
         padding: 16px;
         border-bottom: 0;
     }
 
-    .sessionIcon_c7a2c0 {
+    .sessionIcon__803f2 {
         background: $cream;
         color: $black;
     }
 
-    .sessionMoreButton_c7a2c0 {
+    .sessionMoreButton__803f2 {
         color: $red;
     }
 }

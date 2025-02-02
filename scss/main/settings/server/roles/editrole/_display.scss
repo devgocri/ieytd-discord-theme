@@ -2,21 +2,21 @@
 @use "../../../../../top/card";
 
 // Required field indicator
-.required_c46f6a {
+.required_b717a1 {
     color: $red;
 }
 
 // Colour picker
 // Swatch
-.colorPickerSwatch__343b4 {
+.colorPickerSwatch__459fb {
     border-radius: 0;
     margin-right: 0;
     width: 30px;
     height: inherit;
 
     // Large swatch
-    &.default__428e2,
-    &.custom__383ac {
+    &.default__459fb,
+    &.custom__459fb {
         border: $size-xs solid $cream;
         border-radius: $size-m;
     }
@@ -27,7 +27,7 @@
         fill: $cream;
     }
 
-    &.custom__383ac.noColor_e34214 {
+    &.custom__459fb.noColor_e34214 {
         border-color: $cream;
 
         // Dropper
@@ -51,10 +51,10 @@ div:has(> .colorPickerRow_d31e23) {
 }
 
 // Role custom icon
-.previewContainer_bdfce3 {
+.previewContainer__05e8e {
     @include card.large;
 
-    .preview_bdfce3 {
+    .preview__05e8e {
         color: $cream;
     }
 }

@@ -2,17 +2,17 @@
 @use "../../../../top/card";
 
 // Game invite
-#{$root} .invite_cdcad9,
+#{$root} .invite__4d3fa,
 // Audio
 #{$root} .wrapperAudio_f316dd,
 // Generic file
-.attachment_a4623d.newMosaicStyle_a4623d,
-.container_ad9cbd,
+.fileWrapper__0ccae.newMosaicStyle_b52bef,
+.container__4d95d,
 // Gift
-.giftCodeContainer_b558d0 .tile_ab47a1,
-// .hidden_a3d0f7,
+.giftCodeContainer_b7e1cb .tile__72090,
+// .hidden__54ab5,
 // Server invite
-.wrapper_b9fe76 {
+.wrapper_d5f3cd {
     @include card.large;
 }
 
@@ -21,7 +21,7 @@
 }
 
 // Remove embed
-.embedSuppressButton_ad0b71 {
+.embedSuppressButton__623de {
     right: 4px;
     top: 4px;
     background: $cream;

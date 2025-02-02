@@ -3,20 +3,20 @@
 @use "../../top/filter";
 
 // Boost server
-.content_cc6017,
-.perks_fcea2f {
+.content_a8c622,
+.perks__30359 {
     background: unset;
 }
 
-.heroImage_fcea2f,
-.perkIconContainer_a899f7 {
+.heroImage__30359,
+.perkIconContainer_c609c8 {
     @include filter.sepia;
 }
 
-.perkDescription_a899f7 {
+.perkDescription_c609c8 {
     color: $cream;
 }
 
-.perkRow_a899f7 {
+.perkRow_c609c8 {
     border-bottom: 0;
 }

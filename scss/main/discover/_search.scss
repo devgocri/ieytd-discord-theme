@@ -129,13 +129,13 @@
 }
 
 // Navbar
-.pageControlContainer_b48941 {
+.pageControlContainer_c15210 {
     @include card.round;
     position: sticky;
     width: auto;
     bottom: -$size-l;
 
-    .pageButton_b48941 {
+    .pageButton_c15210 {
         &,
         &:hover {
             color: inherit;
@@ -143,7 +143,7 @@
         }
     }
 
-    .activeButton_b48941 {
+    .activeButton_c15210 {
         &,
         &:hover {
             color: $black;

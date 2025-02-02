@@ -78,16 +78,16 @@
 // Activity detailed
 // Spotify timebar
 #{$root} {
-    .bar_aa267a {
+    .bar_c8b06d {
         @include card.round;
     }
 
-    .barInner_aa267a {
+    .barInner_c8b06d {
         background: $cream;
     }
 
-    .textLeft_aa267a,
-    .textRight_aa267a {
+    .textLeft_c8b06d,
+    .textRight_c8b06d {
         color: $cream;
     }
 }
@@ -122,15 +122,15 @@
 }
 
 // Roles
-.role_f9575e {
+.role_dfa8b6 {
     @include card.round;
     background: $cream;
 
-    &:not(.highestRole_f51af4, .highestRole_a39fe9) .defaultColor_a595eb {
+    &:not(.highestRole__3a5a1, .highestRole__71c22) .defaultColor__4bd52 {
         color: $black;
     }
 }
-.roleCircle_a26d7b {
+.roleCircle__4f569 {
     box-shadow: 0 0 0 $size-xxs $black;
 }
 
@@ -138,7 +138,7 @@
 .note_c90ad7 textarea {
     border-radius: $size-l;
 }
-.note_c90ad7 .inputDefault_f8bc55 {
+.note_c90ad7 .inputDefault__0f084 {
     border-radius: $size-m;
 }
 
@@ -148,51 +148,51 @@
 }
 
 // Connected accounts
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_e6abe8 {
     @include card.med;
 
-    .connectedAccountOpenIcon_f3eb60 {
+    .connectedAccountOpenIcon_e6abe8 {
         color: $cream;
     }
 }
 
 // Activity
-#{$root} :is(.activityProfile_d5089b, .activityProfileV2_d5089b, .activityUserPopout_d5089b, .activityUserPopoutV2_d5089b) {
+#{$root} :is(.activityProfile_c1d9fd, .activityProfileV2_c1d9fd, .activityUserPopout_c1d9fd, .activityUserPopoutV2_c1d9fd) {
     :is(
-            .activityName_d5089b,
-            .content_d5089b,
-            .details_d5089b,
-            .name_d5089b,
-            .nameNormal_d5089b,
-            .nameWrap_d5089b,
-            .activityUserPopoutV2_d5089b .headerText_d5089b
-        ) {
+        .activityName__2ef49,
+        .content__2ef49,
+        .details__2ef49,
+        .name__2ef49,
+        .nameNormal__2ef49,
+        .nameWrap__2ef49,
+        .activityUserPopoutV2_c1d9fd .headerText__2ef49
+    ) {
         color: $cream;
     }
 }
 
 // Mutuals
-.listRow_e4be58 {
+.listRow__9d78f {
     color: $cream;
     &:hover {
         background: $black;
     }
 
-    .listAvatar_e4be58 {
+    .listAvatar__9d78f {
         border-radius: $size-max;
     }
 
-    .guildNick_b26403 {
+    .guildNick_aafe31 {
         color: $cream;
     }
 }
 
 // None
-.emptyText_e4be58 {
+.emptyText__9d78f {
     color: $cream;
 }
 
 // None image
-.emptyIcon_e4be58 {
+.emptyIcon__9d78f {
     @include filter.sepia;
 }

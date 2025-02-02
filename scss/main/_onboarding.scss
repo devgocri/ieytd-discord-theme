@@ -3,26 +3,26 @@
 
 // Onboarding
 
-.main_d8215a {
+.main_c08b38 {
     // Background
-    .gradient_d8215a {
+    .gradient_c08b38 {
         background: unset !important;
     }
 
     // Question window
-    .prompt_cd377c {
+    .prompt_fe70ca {
         @include card.outer;
 
         // Shader
-        .overlay_cd377c {
+        .overlay_fe70ca {
             display: none;
         }
 
         // Footer
-        .navButtons_cd377c {
+        .navButtons_fe70ca {
             background: $red;
 
-            .helpTextItem_cd377c {
+            .helpTextItem_fe70ca {
                 color: $cream;
             }
         }
@@ -30,21 +30,21 @@
 }
 
 // Answer
-.optionButtonWrapper_bd5e1f {
+.optionButtonWrapper__270d7 {
     @include card.round;
 
     &:hover,
-    &.selected_bd5e1f {
+    &.selected__270d7 {
         border-color: $cream;
         background: $black;
     }
 
-    &.pressed_bd5e1f {
+    &.pressed__270d7 {
         transform: none;
     }
 
     // Selected answer
-    .checkIcon_bd5e1f {
+    .checkIcon__270d7 {
         position: relative;
         top: 0;
         right: 0;
@@ -59,7 +59,7 @@
     }
 
     // Other members in group
-    .memberCount_bd5e1f {
+    .memberCount__270d7 {
         top: $size-m;
         right: 32px;
         background: $cream;
@@ -71,10 +71,10 @@
 }
 
 // Rules
-.termsFieldBody_cd377c {
+.termsFieldBody_fe70ca {
     @include card.large;
 
-    .termsRow_cd377c {
+    .termsRow_fe70ca {
         border-bottom: 0;
     }
 }

@@ -2,7 +2,7 @@
 @use "../../top/card";
 
 // Divider bars
-.divider_d5deea {
+.divider__5126c {
     border-width: $size-s;
     border-radius: $size-max;
 
@@ -10,11 +10,11 @@
     $unreadColor: $cream;
 
     // Date bar
-    &:not(.isUnread_fc5f50) {
+    &:not(.isUnread__908e2) {
         border-color: $dateColor;
 
         // Date pill
-        @at-root .content_fc5f50 {
+        @at-root .content__908e2 {
             @include card.round;
             box-sizing: border-box;
             color: $dateColor;
@@ -26,11 +26,11 @@
     }
 
     // New messages bar (or both new messages and date bar)
-    &.isUnread_fc5f50 {
+    &.isUnread__908e2 {
         border-color: $unreadColor;
 
         // New pill
-        @at-root .unreadPill_fc5f50 {
+        @at-root .unreadPill__908e2 {
             @include card.round;
             color: $unreadColor;
             border-color: $unreadColor;
@@ -39,13 +39,13 @@
             line-height: 24px - 4px;
             padding: 4px;
 
-            @at-root .unreadPillCap_fc5f50 {
+            @at-root .unreadPillCap__908e2 {
                 display: none;
             }
         }
 
         // Date pill
-        .content_fc5f50 {
+        .content__908e2 {
             color: $unreadColor;
             border-color: $unreadColor;
         }

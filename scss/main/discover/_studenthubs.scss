@@ -4,7 +4,7 @@
 @use "../../top/svg";
 
 // Student hubs
-.sidebar_a4d4d9 + .scroller_a39aa3 {
+.sidebar_c48ade + .scroller_a39aa3 {
     background: $black;
     border-left: $size-m solid $cream;
 }
@@ -25,17 +25,17 @@
 }
 
 // Server
-.container_f11cbf {
+.container_a76561 {
     @include card.large;
 
-    .iconContainer_f11cbf {
+    .iconContainer_a76561 {
         background: $cream;
         .icon__388ab {
             background: svg.$hub;
         }
     }
 
-    .addButton_f11cbf {
+    .addButton_a76561 {
         color: $cream;
     }
 }

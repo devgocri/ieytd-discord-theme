@@ -4,44 +4,44 @@
 
 $icon-size: calc(20px + 6px);
 $spine-size: calc($icon-size / 1.5);
-$invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6f816, .iconItem_f6f816:hover) .actionIcon_f6f816)";
+$invertible: ":is(.name__2ea32, .icon__2ea32, .overflow__82b15, :is(.iconItem_c69b6d, .iconItem_c69b6d:hover) .actionIcon_c69b6d)";
 
 // Category
-.wrapperCommon_a08117 {
+.wrapperCommon__29444 {
     align-items: baseline;
     color: $black;
 }
 
 // Channel
-.containerDefault_f6f816 {
+.containerDefault_c69b6d {
     background: $black;
     height: channel.height(34px);
     box-sizing: border-box;
     border: $size-xs solid;
     border-left: 0;
 
-    &:not(.container_e1e976 .containerDefault_f6f816) {
+    &:not(.container__5b40b .containerDefault_c69b6d) {
         border-color: $cream;
         border-radius: 0 channel.radius(34px) channel.radius(34px) 0;
         margin-top: $channel-spacing;
     }
 
     // Browse channels
-    &.wrapper_d8bfb3 {
+    &.wrapper__2ea32 {
         margin-left: 0;
     }
 
     // Inner link
-    .link_d8bfb3 {
+    .link__2ea32 {
         padding: 0 8px;
     }
 
-    .name_d8bfb3 {
+    .name__2ea32 {
         line-height: $icon-size;
     }
 
     // Unread pip
-    .unread_d8bfb3 {
+    .unread__2ea32 {
         @include pip.pip($COLOR: $cream);
         margin-top: -(pip.$pip-size);
     }
@@ -54,13 +54,13 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
 }
 
 // Channel icon
-.icon_d8bfb3 {
+.icon__2ea32 {
     zoom: 1.3;
 }
 
 // Red when muted
-.modeMuted_d8bfb3,
-.modeMuted_d8bfb3:hover {
+.modeMuted__2ea32,
+.modeMuted__2ea32:hover {
     #{$invertible} {
         color: $red;
         --interactive-normal: #{$red};
@@ -68,8 +68,8 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
 }
 
 // Cream when unread
-.modeUnreadImportant_d8bfb3,
-.modeUnreadImportant_d8bfb3:hover {
+.modeUnreadImportant__2ea32,
+.modeUnreadImportant__2ea32:hover {
     #{$invertible} {
         color: $cream;
         --interactive-normal: #{$cream};
@@ -77,13 +77,13 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
 }
 
 // Inverted when connected or selected
-.containerDefault_f6f816:has(.modeConnected_d8bfb3, .modeSelected_d8bfb3),
-.containerDefault_f6f816.modeSelected_d8bfb3 {
+.containerDefault_c69b6d:has(.modeConnected__2ea32, .modeSelected__2ea32),
+.containerDefault_c69b6d.modeSelected__2ea32 {
     background: $cream;
     border-color: $black !important;
 }
 
-:is(.modeConnected_d8bfb3, .modeSelected_d8bfb3) {
+:is(.modeConnected__2ea32, .modeSelected__2ea32) {
     &,
     &:hover {
         #{$invertible} {
@@ -94,12 +94,12 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
 }
 
 // Live channel
-.iconLive_dce222 {
+.iconLive__46869 {
     color: $red !important;
 }
 
 // Threads
-.container_e1e976 {
+.container__5b40b {
     overflow: hidden;
     border: solid $cream;
     border-width: 0 $size-xs $size-xs 0;
@@ -107,27 +107,27 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
     border-radius: 0 0 channel.radius(34px) 0;
 
     // Thread
-    .containerDefault_f6f816 {
+    .containerDefault_c69b6d {
         margin-top: 0;
         border: 0;
     }
 
     // Spine
-    .spine_e1e976,
-    .spineBorder_e1e976 {
+    .spine__5b40b,
+    .spineBorder__5b40b {
         top: 0;
         height: $spine-size;
         width: $spine-size;
         color: $red;
     }
 
-    .spine_e1e976 + .spine_e1e976 {
+    .spine__5b40b + .spine__5b40b {
         transform: rotateX(180deg) translateY(4px - $spine-size) !important;
     }
 }
 
 // Channel info
-.channelInfo_f6f816 {
+.channelInfo_c69b6d {
     --text-muted: #{$cream};
     --text-brand: #{$cream};
 }
@@ -140,10 +140,10 @@ $invertible: ":is(.name_d8bfb3, .icon_d8bfb3, .overflow_c74e70, :is(.iconItem_f6
 }
 
 // Events tab
-.content_cc29d1 {
+.content__65844 {
     align-items: center;
 
-    .numberBadge_d8bfb3 {
+    .numberBadge__2ea32 {
         background: $red;
         color: $black;
         padding-left: 2px;

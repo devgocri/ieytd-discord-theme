@@ -3,46 +3,46 @@
 
 // Soundboard picker
 
-.picker_cd703d {
+.picker__09f65 {
     @include card.outer;
     background: $black;
 }
 
 // Header
-.header_d0dc1d {
+.header__0856d {
     background: $red;
 
-    .settingsClickArea_ca5acd {
+    .settingsClickArea__61424 {
         color: $cream;
     }
 }
 
 // Server sidebar
-.categoryList_ceda83 {
+.categoryList_a1e0e0 {
     top: 64px;
     left: $size-s;
     bottom: $size-s;
     border-bottom-left-radius: $size-l;
 
-    .category_ceda83 {
+    .category_a1e0e0 {
         border-radius: $size-max;
         background: $red;
         overflow: hidden;
         box-shadow: 0 0 0 2px $black;
     }
 
-    .categoryIconIcon_ceda83 {
+    .categoryIconIcon_a1e0e0 {
         color: $cream;
     }
 }
 
 // Sound panel
-.listWrapper_d0dc1d {
+.listWrapper__0856d {
     left: 47px;
     width: calc(100% - 47px);
 
     // Group header
-    .sectionHeader_ca5acd {
+    .sectionHeader__61424 {
         position: sticky;
         margin: 0;
         top: 0;
@@ -52,12 +52,12 @@
         height: 32px;
         align-items: center;
 
-        .guildIcon_bfabc4 {
+        .guildIcon__0fa6d {
             border-radius: $size-max;
             background: $red;
         }
 
-        .sectionTitle_ca5acd {
+        .sectionTitle__61424 {
             color: $cream;
             font-size: 12px;
             line-height: 12px;
@@ -66,35 +66,35 @@
     }
 
     // Sound
-    .soundButton_f40049 {
+    .soundButton__6d4ed {
         @include card.med;
 
         // Hover to select
-        &.focused_f40049.hoverActiveBackground_f40049,
-        &:focus-within.hoverActiveBackground_f40049,
-        &:hover.hoverActiveBackground_f40049 {
+        &.focused__6d4ed.hoverActiveBackground__6d4ed,
+        &:focus-within.hoverActiveBackground__6d4ed,
+        &:hover.hoverActiveBackground__6d4ed {
             background: unset;
 
-            .secondaryButton_f40049 {
+            .secondaryButton__6d4ed {
                 color: $cream;
             }
 
-            .favoriteIconFavorite_f40049 path:last-child {
+            .favoriteIconFavorite__6d4ed path:last-child {
                 fill: $cream;
             }
         }
 
         // Hover to play
-        .buttonOverlayBackground_f40049 {
+        .buttonOverlayBackground__6d4ed {
             background: $cream;
         }
-        .buttonOverlay_f40049:has(.buttonOverlayBackground_f40049) {
+        .buttonOverlay__6d4ed:has(.buttonOverlayBackground__6d4ed) {
             .playIcon_f40049,
-            .secondaryButton_f40049 {
+            .secondaryButton__6d4ed {
                 color: $black;
             }
 
-            .favoriteIconFavorite_f40049 path:last-child {
+            .favoriteIconFavorite__6d4ed path:last-child {
                 fill: $black;
             }
         }
@@ -104,7 +104,7 @@
     .soundAddButton__896b6 {
         border: 0;
 
-        .soundAddIcon_c06ee5 {
+        .soundAddIcon__58c6c {
             color: $cream;
         }
     }

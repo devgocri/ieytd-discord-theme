@@ -7,22 +7,22 @@
     color: $cream !important;
 }
 
-.placeholder_f6639d {
+.placeholder__3f413 {
     color: $cream;
 }
 
 // Typing inputs
-.input_f8bc55 {
+.input__0f084 {
     @include card.round;
 
     &:hover,
-    &.disabled_f8bc55,
-    &.focused_f8bc55,
+    &.disabled__0f084,
+    &.focused__0f084,
     &:focus {
         border-color: $cream;
     }
 
-    &.error_f8bc55 {
+    &.error__0f084 {
         border: $size-s solid $red;
     }
 }
@@ -31,48 +31,48 @@
 .inputPrefix-1HHwWv {
     color: $cream;
 }
-.inputDefault_f8bc55 {
+.inputDefault__0f084 {
     @include card.round;
 }
 
 // Multi line input
-.textArea_a2b402 {
+.textArea__7aff3 {
     @include card.xlarge;
 }
 
 // Char limit
 .characterCount__61e39,
-.maxLength_a2b402 {
+.maxLength__7aff3 {
     color: $cream;
 }
 
 // Click to copy input
-#{$root} .copyInput_f549fd {
+#{$root} .copyInput_fffc15 {
     @include card.round;
 }
 
 // Keybind editor
-.editIcon_ebcd80 {
+.editIcon__2636e {
     background: svg.$keyboard;
 }
 
 // Dropdown selector
-.lookFilled_f6639d.select_f6639d {
+.lookFilled__3f413.select__3f413 {
     border-radius: $size-max;
     background: $black;
     border: $size-xs solid $cream;
 }
 
 // Toggle
-.container_cebd1c {
+.container__87bf1 {
     zoom: 1.2;
 
-    &:not(.checked_cebd1c) {
+    &:not(.checked__87bf1) {
         background-color: $red !important;
         color: $red;
     }
 
-    &.checked_cebd1c {
+    &.checked__87bf1 {
         background-color: $cream !important;
         color: $cream;
     }
@@ -87,11 +87,11 @@
 }
 
 // Checkbox
-#{$root} .checkbox_f6cde8 {
+#{$root} .checkbox_f525d3 {
     border: $size-xs solid $cream;
     border-radius: $size-max;
 
-    &.checked_f6cde8 {
+    &.checked_f525d3 {
         background: $black !important;
         border-color: $cream !important;
 
@@ -101,54 +101,54 @@
     }
 }
 
-.checkbox_aa7c25 {
+.checkbox_d9161f {
     border: $size-xs solid $cream;
     border-radius: $size-max;
 
-    &.selected_aa7c25 {
+    &.selected_d9161f {
         background: unset;
         border: $size-xs solid $cream;
     }
 
-    .checkmark_aa7c25 {
+    .checkmark_d9161f {
         color: $cream;
     }
 }
 
 // Slider
-.slider_c7a159 {
+.slider_a562c8 {
     // Tick
-    .markDash_c7a159 {
+    .markDash_a562c8 {
         background: $red;
     }
     // Label
-    .markValue_c7a159 {
+    .markValue_a562c8 {
         color: $cream;
     }
 
     // Bar
-    .bar_c7a159 {
+    .bar_a562c8 {
         background: $red;
-        .barFill_c7a159 {
+        .barFill_a562c8 {
             background: $cream;
         }
     }
 
     // Grabber
-    .grabber_c7a159 {
+    .grabber_a562c8 {
         @include grabber.full;
     }
 }
 
 // Mini slider
-.mini_c7a159 {
-    .grabber_c7a159 {
+.mini_a562c8 {
+    .grabber_a562c8 {
         @include grabber.mini;
     }
 }
 
 // Keybind
-#{$root} .container_c67e31 {
+#{$root} .container_f89b2c {
     @include card.large;
     border-radius: $size-max;
 
@@ -158,20 +158,20 @@
     }
 
     // Current keys
-    .input_c67e31 {
+    .input_f89b2c {
         color: $cream;
     }
 }
 
 // Dropdown
-.select_f6639d,
-.wrapper_f6639d {
+.select__3f413,
+.wrapper__3f413 {
     color: $cream;
 }
 
 // Dropdown options
-.popout_f6639d,
-.popout_f6639d.popoutPositionTop_f6639d {
+.popout__3f413,
+.popout__3f413.popoutPositionTop__3f413 {
     @include card.xlarge;
     background: $black;
 
@@ -179,13 +179,13 @@
         display: none;
     }
 
-    .option_f6639d {
+    .option__3f413 {
         color: $cream;
 
-        &[aria-selected="true"]:not(.option_f6639d.multi_f6639d),
+        &[aria-selected="true"]:not(.option__3f413.multi__3f413),
         &:hover,
         &:focus,
-        &.focused_f6639d {
+        &.focused__3f413 {
             background: unset;
             color: $cream;
         }
@@ -193,7 +193,7 @@
 }
 
 // Selected
-.selectedIcon_f6639d {
+.selectedIcon__3f413 {
     color: $cream;
 
     circle {

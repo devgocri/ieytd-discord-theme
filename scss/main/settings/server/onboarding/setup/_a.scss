@@ -5,47 +5,47 @@
 // Setup onboarding
 
 // Step description overlay
-.educationUpsellRoot_b5926e {
-    .educationUpsell_b5926e {
+.educationUpsellRoot__4a4f2 {
+    .educationUpsell__4a4f2 {
         @include card.outer;
     }
 
-    .wumpus_b5926e {
+    .wumpus__4a4f2 {
         @include filter.sepia;
     }
 }
 
 // Steps bar
-.progressBar_a4e2c3 {
+.progressBar__008b2 {
     &,
-    .clickableProgressBar_a4e2c3:hover & {
+    .clickableProgressBar__008b2:hover & {
         background: $red;
     }
 
-    &.progressBarCurrent_a4e2c3,
-    .clickableProgressBar_a4e2c3:hover &.progressBarCurrent_a4e2c3 {
+    &.progressBarCurrent__008b2,
+    .clickableProgressBar__008b2:hover &.progressBarCurrent__008b2 {
         background: $cream;
     }
 }
 
 // Back / next bar
-.container_b5926e {
+.container__4a4f2 {
     background: unset !important;
 }
 
 // Links
-.anchor_af404b div {
+.anchor_edefb8 div {
     color: $red !important;
 }
 
 // Drag bars
-.dragContainer_b19204,
-.dragContainer_e88228 {
+.dragContainer_b96967,
+.dragContainer_d2b0e4 {
     color: $cream;
     left: $size-m;
     display: flex;
 }
 
-.dragIcon_e88228 {
+.dragIcon_d2b0e4 {
     display: block;
 }

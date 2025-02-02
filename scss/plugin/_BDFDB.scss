@@ -2,7 +2,7 @@
 @use "../top/card";
 
 // BDFDB
-.colorPickerSwatch__343b4.custom__383ac[style*="background"] {
+.colorPickerSwatch__459fb.custom__459fb[style*="background"] {
     border: $size-xs solid $cream !important;
 }
 
@@ -21,14 +21,14 @@
     }
 }
 
-input.input_f8bc55 {
+input.input__0f084 {
     &.success_f8bc55,
-    &.error_f8bc55 {
+    &.error__0f084 {
         border-width: $size-xs !important;
     }
 }
 
 // Bot tags
-.botTag_ec86aa {
+.botTag_c19a55 {
     top: unset;
 }

@@ -3,35 +3,35 @@
 @use "../../top/filter";
 
 // Large popouts
-.recentMentionsPopout_ddb5b4,
-.messagesPopoutWrap_ac90a2 {
+.recentMentionsPopout__95796,
+.messagesPopoutWrap__45690 {
     @include card.outer;
     max-height: 85vh !important;
 }
 
 // Small popouts
-.popoutContainer_cf58b5,
-.popout_c5b389,
-.menu_d90b3d {
+.popoutContainer__0f481,
+.popout__76f04,
+.menu_c1e9c4 {
     @include card.outer;
 }
 
 // Header
-.header_ac90a2,
-.header_e664f3 {
+.header__45690,
+.header_d9c882 {
     background: $red;
 
     // Top title
     :is(h1, h2, h3, h4, h5),
-    .inboxTitle_f0cd33,
-    .title_e664f3 {
+    .inboxTitle_ab6641,
+    .title_d9c882 {
         color: $black;
         @include filter.shadow;
     }
 }
 
 // Footer
-.footer_ac90a2,
-.footer_e6af9c {
+.footer__45690,
+.footer_cba592 {
     background: $red;
 }

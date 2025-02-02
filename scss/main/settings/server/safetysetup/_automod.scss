@@ -3,19 +3,19 @@
 @use "../../../../top/card";
 
 // Automod rule icon
-.ruleIconContainer_ea28e2 {
+.ruleIconContainer_c5e6a1 {
     background: $cream;
 
-    .ruleIcon_ea28e2 {
+    .ruleIcon_c5e6a1 {
         color: $black;
     }
 }
 
 // Automod actions
-.actionContainer_cec7a5 {
+.actionContainer_bc4513 {
     background: $cream;
 
-    .actionIcon_cec7a5 {
+    .actionIcon_bc4513 {
         color: $black;
     }
 
@@ -27,7 +27,7 @@
 
 // Rules
 // Step
-.stepCountIcon_df95ff {
+.stepCountIcon_b6c6eb {
     background: $cream;
 
     div {
@@ -36,47 +36,47 @@
 }
 
 // Arrow between steps
-.dividierIcon_f9f9ba {
+.dividierIcon__1abf5 {
     color: $cream;
 }
 
 // Step instructions
-.triggerMainContainer_df95ff {
+.triggerMainContainer_b6c6eb {
     border: 0;
 
     // Field
-    .keywordsTextArea_bdc518,
-    .collapseable_a3cc4a {
+    .keywordsTextArea__6a631,
+    .collapseable__217b7 {
         @include card.large;
     }
 
-    .arrow_a779c5,
-    .arrow_a4df17 {
+    .arrow_fc46b1,
+    .arrow__4546e {
         color: $cream;
     }
 
     // Field in dropdown
-    .textArea_bd9c39 {
+    .textArea_c615b7 {
         @include card.med;
     }
 
     // Icon
-    .actionIcon_b6e944,
-    .mentionLimitIcon_fa2661 {
+    .actionIcon__6446f,
+    .mentionLimitIcon_ed9c90 {
         color: $cream;
     }
 
-    .mentionLimitIcon_fa2661 path {
+    .mentionLimitIcon_ed9c90 path {
         fill: $cream;
     }
 
     // Link
-    .editChannel_b6e944 {
+    .editChannel__6446f {
         color: $red;
     }
 
     // Number adjust buttons
-    .stepperContainer_fa2661 {
+    .stepperContainer_ed9c90 {
         background: unset;
         border: 0;
 
@@ -89,33 +89,33 @@
         }
     }
 
-    .collapseable_a4df17 {
+    .collapseable__4546e {
         margin: 8px;
     }
 
     // Response
-    .triggerSettingsContainer_df95ff {
-        &:has(.actionContainer_b6e944, .mentionLimitContainer_fa2661, .keywordListContainer_f9f552) {
+    .triggerSettingsContainer_b6c6eb {
+        &:has(.actionContainer__6446f, .mentionLimitContainer_ed9c90, .keywordListContainer__09e76) {
             @include card.large;
             margin-top: 8px;
             padding-top: 0;
         }
 
         // Row
-        .actionContainer_b6e944,
-        .mentionLimitContainer_fa2661,
-        .keywordListContainer_f9f552 {
+        .actionContainer__6446f,
+        .mentionLimitContainer_ed9c90,
+        .keywordListContainer__09e76 {
             background: unset;
             margin-bottom: 0;
         }
     }
 
     // Search
-    .container_effbe2 {
+    .container_fea832 {
         @include card.round;
 
         // Term
-        .richTag_effbe2 {
+        .richTag_fea832 {
             border-radius: $size-max;
             background: $cream;
             color: $black;
@@ -131,7 +131,7 @@
     }
 
     // Search results
-    .resultsList_debb5a {
+    .resultsList__6ae25 {
         @include card.xlarge;
         background: $black;
     }
@@ -139,33 +139,33 @@
 
 // Explicit image filter
 .container_e5c5d5,
-.groupCollapsedContainer_f573e6,
-.collapseable_a3cc4a.toggled_a3cc4a:active,
-.collapseable_a3cc4a:active,
+.groupCollapsedContainer_b6a9f9,
+.collapseable__217b7.toggled__217b7:active,
+.collapseable__217b7:active,
 .clickableContainer_e5c5d5 {
     background: unset;
 }
 
-.groupContainer_f573e6 {
+.groupContainer_b6a9f9 {
     @include card.large;
 
-    &.toggled_a3cc4a {
+    &.toggled__217b7 {
         padding-bottom: 24px;
     }
 
     // Currently selected option
-    .groupHeaderRow_f573e6 .backgroundModifierContainer_e5c5d5 {
+    .groupHeaderRow_b6a9f9 .backgroundModifierContainer_e5c5d5 {
         border-left: 0;
     }
 
     // All options
-    .groupCollapsedContainer_f573e6 {
+    .groupCollapsedContainer_b6a9f9 {
         @include card.large;
         margin: 12px;
         padding: 0;
         width: auto;
 
-        .pointer_f573e6 {
+        .pointer_b6a9f9 {
             display: none;
         }
 
@@ -175,7 +175,7 @@
         }
 
         // Radio icon
-        .groupCollapsedRow_b34891 {
+        .groupCollapsedRow_ba5386 {
             color: $cream;
         }
     }

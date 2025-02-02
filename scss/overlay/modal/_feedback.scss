@@ -2,11 +2,11 @@
 @use "../../top/card";
 
 // Voice chat or activity feedback
-#{$root} .header_f9a4c9:has(.ratingBody_b58b14) {
+#{$root} .header__49fc1:has(.ratingBody__6c12c) {
     background: $black;
 }
 
 // Subtitle
-.ratingBody_b58b14 {
+.ratingBody__6c12c {
     color: $cream;
 }

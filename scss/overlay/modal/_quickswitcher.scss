@@ -5,32 +5,32 @@
 // Ctrl+T quickswitcher
 
 // Root
-.container_f4e139 {
+.container_ac6cb0 {
     height: 365px + 12px;
     background: $black !important;
 }
 
-.quickswitcher_f4e139 {
+.quickswitcher_ac6cb0 {
     box-shadow: none;
     background: $black;
     color: $cream;
 }
 
 // Searchbox
-.input_f4e139 {
+.input_ac6cb0 {
     @include card.round;
 }
 
 // Results
-.scroller_f4e139 {
+.scroller_ac6cb0 {
     background: unset;
 
-    .contentDefault_f14193,
-    .contentUnread_f14193,
-    .header_f14193,
-    .icon_f14193,
-    .misc_f14193,
-    .note_f14193 {
+    .contentDefault__71961,
+    .contentUnread__71961,
+    .header__71961,
+    .icon__71961,
+    .misc__71961,
+    .note__71961 {
         color: $cream;
     }
 }
@@ -47,11 +47,11 @@
 }
 
 // No results
-.emptyState_f4e139 {
+.emptyState_ac6cb0 {
     @include filter.sepia;
 }
 
 // Footer tip
-.protip_f4e139.hasContent_f4e139 {
+.protip_ac6cb0.hasContent_ac6cb0 {
     border-top: 0;
 }

@@ -1,11 +1,11 @@
 @use "../../../top/vars" as *;
 @use "../../../top/card";
 
-.descriptionWrapper_ede133 {
+.descriptionWrapper__43963 {
     color: $cream;
 }
 
-#{$root} .defaultIndicator_ede133 {
+#{$root} .defaultIndicator__43963 {
     border-radius: $size-max;
     background: $cream;
     color: $black;
@@ -13,29 +13,29 @@
 
 #billing-tab {
     // Editing card info
-    .card_d96f24 {
+    .card_f0c2ea {
         background: unset;
         border-color: $cream;
 
-        .subText_d96f24,
-        .sectionHeader_d96f24 {
+        .subText_f0c2ea,
+        .sectionHeader_f0c2ea {
             color: $cream;
         }
     }
 }
 
 // Transaction history
-.paymentPane_f66684 {
+.paymentPane__01014 {
     #{$root} & {
         @include card.large;
         color: $cream;
     }
 
     // Header
-    .bottomDivider_f66684 {
+    .bottomDivider__01014 {
         border-bottom: 0;
     }
-    .paymentRowHeader_f66684 {
+    .paymentRowHeader__01014 {
         div {
             color: $cream;
             font-size: 16px;
@@ -43,12 +43,12 @@
     }
 
     // Content
-    .paginator_f66684 {
+    .paginator__01014 {
         background: unset;
     }
 
     // Payment row
-    .payment_a28a08 {
+    .payment_e9cb00 {
         background: unset;
 
         &:hover {
@@ -56,10 +56,10 @@
         }
 
         // Summary
-        .summaryInfo_a28a08 {
+        .summaryInfo_e9cb00 {
             color: $cream;
 
-            .statusTagRed_a28a08 {
+            .statusTagRed_e9cb00 {
                 background: $red;
                 color: $cream;
                 border-radius: $size-max;
@@ -67,26 +67,26 @@
         }
 
         // Details
-        .expandedInfo_a28a08 {
+        .expandedInfo_e9cb00 {
             @include card.large;
 
-            .paymentHeader_a28a08,
-            .paymentText_a28a08 {
+            .paymentHeader_e9cb00,
+            .paymentText_e9cb00 {
                 color: $cream;
             }
         }
     }
 
     // Nav buttons
-    .pageActions_cb56ee {
+    .pageActions__2d021 {
         justify-content: space-between;
         padding: $size-m;
 
-        :is(.pageButtonNext_cb56ee, .pageButtonPrev_cb56ee, .pageIndicator_cb56ee) {
+        :is(.pageButtonNext__2d021, .pageButtonPrev__2d021, .pageIndicator__2d021) {
             color: $cream;
             border: 0;
 
-            &.disabled_cb56ee {
+            &.disabled__2d021 {
                 color: $cream;
                 opacity: 0.7;
             }

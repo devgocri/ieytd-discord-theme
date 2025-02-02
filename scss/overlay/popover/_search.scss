@@ -5,16 +5,16 @@
 // Search chat history
 
 #{$root} {
-    .container_eedf95 {
+    .container__55c99 {
         @include card.outer;
     }
 
     // Header
-    .focused_eedf95 {
+    .focused__55c99 {
         background: $red;
     }
 
-    .queryContainer_eedf95 {
+    .queryContainer__55c99 {
         color: $cream;
 
         strong {
@@ -24,13 +24,13 @@
 }
 
 // Group header
-.resultsGroup_b0286e {
-    .header_b0286e {
+.resultsGroup__56fec {
+    .header__56fec {
         color: $cream;
     }
 
-    .searchLearnMore_b0286e,
-    .searchClearHistory_b0286e {
+    .searchLearnMore__56fec,
+    .searchClearHistory__56fec {
         &,
         &:hover {
             color: $cream;
@@ -39,22 +39,22 @@
 }
 
 // Search option
-.searchOption_b0286e {
-    .filter_b0286e {
+.searchOption__56fec {
+    .filter__56fec {
         color: $red;
     }
-    .answer_b0286e {
+    .answer__56fec {
         color: $cream;
     }
 }
 
 // History / options
-.option_b0286e {
+.option__56fec {
     &:hover,
     &[aria-selected="true"] {
         background: unset;
 
-        .plusIcon_b0286e {
+        .plusIcon__56fec {
             color: $cream;
         }
     }
@@ -66,28 +66,28 @@
 
     &,
     &:hover {
-        :is(.nonText_b0286e, .answer_b0286e, .filter_b0286e, strong) {
+        :is(.nonText__56fec, .answer__56fec, .filter__56fec, strong) {
             color: $cream;
         }
     }
 
     // From user
-    &.user_b0286e .displayedNick_b0286e {
+    &.user__56fec .displayedNick__56fec {
         color: $cream;
         font-family: var(--font-display);
         margin-top: -6px;
     }
-    &.user_b0286e .displayUsername_b0286e {
+    &.user__56fec .displayUsername__56fec {
         color: $red;
     }
 }
 
-.resultsGroup_b0286e::before {
+.resultsGroup__56fec::before {
     display: none;
 }
 
 // Date picker
-#{$root} .calendarPicker__47c85 {
+#{$root} .calendarPicker_d27f17 {
     .react-datepicker__header,
     .react-datepicker {
         background: $black;
@@ -172,17 +172,17 @@
 }
 
 // Footer
-.datePicker_b0286e .datePickerHint_b0286e {
+.datePicker__56fec .datePickerHint__56fec {
     background: $red;
     margin: 0;
     padding: 20px;
     border-top: 0;
 
-    .hint_b0286e {
+    .hint__56fec {
         color: $cream;
     }
 
-    .hintValue_b0286e {
+    .hintValue__56fec {
         border-radius: $size-max;
 
         &,
@@ -196,13 +196,13 @@
 /* search modifiers, eg. has: from: */
 #{$root} {
     // Search modifiers
-    .searchFilter_b0fa94 {
+    .searchFilter_bd8186 {
         background: $cream;
         color: $black;
         border-radius: $size-max 0 0 $size-max;
         padding: 0 3px 0 6px;
     }
-    .searchAnswer_b0fa94 {
+    .searchAnswer_bd8186 {
         background: $red;
         color: $black;
         border-radius: 0 $size-max $size-max 0;
@@ -210,8 +210,8 @@
     }
 
     // In channel
-    .searchResultChannelCategory_b0286e,
-    .searchResultChannelIcon_b0286e {
+    .searchResultChannelCategory__56fec,
+    .searchResultChannelIcon__56fec {
         color: $cream;
     }
 }

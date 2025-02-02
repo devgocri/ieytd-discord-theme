@@ -3,10 +3,10 @@
 
 // Stream preview / watch stream
 
-#{$root} .streamPreview_adbea6 {
+#{$root} .streamPreview__6da2d {
     @include card.outer;
 
-    .watchButton_adbea6 {
+    .watchButton__6da2d {
         color: $cream;
 
         &:hover {
@@ -14,7 +14,7 @@
         }
     }
 
-    .white_adbea6 {
+    .white__6da2d {
         color: $cream;
     }
 }

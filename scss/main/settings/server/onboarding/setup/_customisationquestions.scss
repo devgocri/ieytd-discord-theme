@@ -3,19 +3,19 @@
 
 // 3. Customisation questions
 
-.dot_df2e1e {
+.dot_e34850 {
     display: none;
 }
 
 // Channels missing dropdown
-.channelCoverage_df2e1e {
+.channelCoverage_e34850 {
     @include card.large;
 
-    .warning_df2e1e {
+    .warning_e34850 {
         color: $red;
     }
 
-    .progressBar_c6473a {
+    .progressBar__89dcd {
         background: $cream !important;
 
         &[style$="background-color: var(--status-warning);"] {
@@ -23,11 +23,11 @@
         }
     }
 
-    .caret_df2e1e {
+    .caret_e34850 {
         color: $cream;
     }
 
-    .channelCoverageDetails_df2e1e {
+    .channelCoverageDetails_e34850 {
         background: unset;
 
         svg {
@@ -35,36 +35,36 @@
         }
     }
 
-    .channelPill_df2e1e {
+    .channelPill_e34850 {
         @include card.round;
     }
 }
 
 // Question
-.container_a90bed {
+.container__5d756 {
     @include card.large;
 
-    .dragContainer_a90bed {
+    .dragContainer__5d756 {
         color: $cream;
         display: flex;
     }
 
-    .collapseButton_a90bed {
+    .collapseButton__5d756 {
         color: $cream;
     }
 
-    .removeButton_a90bed {
+    .removeButton__5d756 {
         color: $red;
     }
 
     // Examples
-    .example_a90bed {
+    .example__5d756 {
         @include card.round;
     }
 }
 
 // Answer
-.optionCard_b19204 {
+.optionCard_b96967 {
     @include card.round;
     padding-left: 32px;
 
@@ -72,33 +72,33 @@
         border-color: $cream;
     }
 
-    .plusIcon_b19204 {
+    .plusIcon_b96967 {
         color: $cream;
     }
 }
 
 // Add question
-.addPrompt_df2e1e {
+.addPrompt_e34850 {
     @include card.round;
     padding: $size-m $size-xl;
     width: fit-content;
     align-self: center;
 
-    .plusIcon_df2e1e {
+    .plusIcon_e34850 {
         color: $cream;
     }
 }
 
-.separatorSection_df2e1e {
+.separatorSection_e34850 {
     display: flex;
     flex-direction: column;
 }
 
-.divider_df2e1e {
+.divider_e34850 {
     height: 0;
 }
 
 // Server guide banner gem
-.icon_b29edb {
+.icon__40463 {
     color: $cream;
 }

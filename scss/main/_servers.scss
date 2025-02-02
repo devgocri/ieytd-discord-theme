@@ -2,37 +2,37 @@
 @use "../top/pip";
 
 // Server sidebar
-.guilds_a4d4d9 {
+.guilds_c48ade {
     background: $cream;
     --status-danger: #{$cream};
 
     // Rounded icons and folders
-    .wrapper_c5f96a foreignObject {
+    .wrapper_cc5dd2 foreignObject {
         mask: none;
     }
 
-    .wrapper_f90abb,
-    .folder_bc7085,
-    .circleIconButton_db6521,
-    .icon_f90abb {
+    .wrapper__6e9f8,
+    .folder__48112,
+    .circleIconButton__5bc7e,
+    .icon__6e9f8 {
         border-radius: $size-max;
         overflow: hidden;
     }
 
     // Folders
-    .folder_bc7085,
-    .expandedFolderBackground_bc7085,
-    .expandedFolderBackground_bc7085.collapsed_bc7085,
-    .expandedFolderBackground_bc7085.collapsed_bc7085.hover_bc7085 {
+    .folder__48112,
+    .expandedFolderBackground__48112,
+    .expandedFolderBackground__48112.collapsed__48112,
+    .expandedFolderBackground__48112.collapsed__48112.hover__48112 {
         background: $red;
     }
 
-    .expandedFolderIconWrapper_bc7085 path {
+    .expandedFolderIconWrapper__48112 path {
         stroke: $black;
         stroke-width: $size-xs;
     }
 
-    .expandedFolderBackground_bc7085 {
+    .expandedFolderBackground__48112 {
         border-radius: $size-max;
         border: $size-s solid $black;
         left: 12px - $size-s;
@@ -42,37 +42,37 @@
     }
 
     // Server not in folder
-    .wrapper_c5f96a:not(.wrapper_bc7085 .wrapper_c5f96a) {
+    .wrapper_cc5dd2:not(.wrapper__48112 .wrapper_cc5dd2) {
         &,
-        .svg_c5f96a {
+        .svg_cc5dd2 {
             width: 48px + 2 * $size-s;
             height: 48px + 2 * $size-s;
         }
     }
 
-    .wrapper_f90abb:not(.wrapper_bc7085 .wrapper_f90abb) {
+    .wrapper__6e9f8:not(.wrapper__48112 .wrapper__6e9f8) {
         border: $size-s solid $black;
         box-sizing: border-box;
     }
 
     // DM icon
-    :is(.wrapper_f90abb, .wrapper_f90abb.selected_ae80f7, .wrapper_f90abb:hover) {
-        .childWrapper_f90abb {
+    :is(.wrapper__6e9f8, .wrapper__6e9f8.selected_ae80f7, .wrapper__6e9f8:hover) {
+        .childWrapper__6e9f8 {
             background: $red;
             color: $cream;
         }
     }
 
     // Add server and explore buttons
-    .circleIconButton_db6521,
-    .circleIconButton_db6521.selected_db6521 {
+    .circleIconButton__5bc7e,
+    .circleIconButton__5bc7e.selected__5bc7e {
         border: $size-s solid $black;
         background: $red;
         color: $cream;
     }
 
     // Unread pip
-    .item_fd07a3 {
+    .item__58105 {
         @include pip.pip($COLOR: $black);
         margin-left: 0;
 
@@ -87,24 +87,24 @@
 
     // Reordering servers
     // Background behind dragged icon
-    .placeholderMask_f734d8 {
+    .placeholderMask__87847 {
         border-radius: $size-max;
 
-        .dragInner_f734d8 {
+        .dragInner__87847 {
             background: $red;
         }
     }
 
     // Dragged icon target
-    .target_b7c66a.dragOver_b7c66a::before,
-    .centerTarget_b7c66a.dragOver_b7c66a::before {
+    .target_d144f8.dragOver_d144f8::before,
+    .centerTarget_d144f8.dragOver_d144f8::before {
         background: $red;
         box-shadow: none;
     }
 
     // Badge
-    .lowerBadge_c5f96a,
-    .upperBadge_c5f96a {
+    .lowerBadge_cc5dd2,
+    .upperBadge_cc5dd2 {
         & > div {
             border: $size-xs solid $black;
             height: 20px;
@@ -132,25 +132,25 @@
         }
 
         // Paused invites
-        .pauseBackground_fdcfe0 {
+        .pauseBackground_d70e0d {
             border: $size-xs solid $black;
             background: $cream;
 
-            .pause_fdcfe0 path {
+            .pause_d70e0d path {
                 fill: $black;
             }
         }
     }
 
     // New unreads bubble
-    :is(.unreadMentionsIndicatorBottom_fea3ef, .unreadMentionsIndicatorTop_fea3ef) {
+    :is(.unreadMentionsIndicatorBottom_ef3116, .unreadMentionsIndicatorTop_ef3116) {
         padding: 2px;
 
-        .unreadMentionsBar_fea3ef {
+        .unreadMentionsBar_ef3116 {
             border: $size-s solid $black;
             box-sizing: border-box;
 
-            .text_c10249 {
+            .text__3b95d {
                 color: $black;
                 font-size: 16px;
                 margin: 0 0 6px 2px;

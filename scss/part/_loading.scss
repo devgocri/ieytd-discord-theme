@@ -1,9 +1,9 @@
 @use "../top/vars" as *;
 
 // Rotating cubes
-.wanderingCubes_b6db20 {
+.wanderingCubes__0b5bb {
     zoom: 3;
-    .item_b6db20 {
+    .item__0b5bb {
         background: $red;
 
         &:last-child {
@@ -13,14 +13,14 @@
 }
 
 // Three dots
-.lowMotion_b6db20 .item_b6db20,
-#{$root} .lookFilled_dd4f85 .spinnerItem_dd4f85 {
+.lowMotion__0b5bb .item__0b5bb,
+#{$root} .lookFilled__201d5 .spinnerItem__201d5 {
     background: $cream;
 }
 
 // Spinner
-.circular_b6db20 {
-    .path_b6db20 {
+.circular__0b5bb {
+    .path__0b5bb {
         stroke: $cream;
     }
 }

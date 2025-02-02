@@ -1,23 +1,23 @@
 @use "../../top/vars" as *;
 @use "../../top/card";
 
-.panels_a4d4d9,
-.container_adcaac,
-#{$root} .container_b2ca13,
-#{$root} .panel_bf1a22 {
+.panels_c48ade,
+.container_e131a9,
+#{$root} .container__37e49,
+#{$root} .panel__5dec7 {
     background: $black;
 }
 
-.panels_a4d4d9 {
+.panels_c48ade {
     border-top: $size-s solid $cream;
 
     // Activity panel
-    .activityPanel_a4d4d9 {
+    .activityPanel_c48ade {
         border-bottom: 0;
     }
 
     // VC controls
-    .container_adcaac {
+    .container_e131a9 {
         border-bottom: 0;
 
         // Ping bars
@@ -42,18 +42,18 @@
         }
 
         // Connected users
-        .voiceUsers_fb2f1c {
+        .voiceUsers__68617 {
             gap: $size-s;
 
-            .avatarContainer_fb2f1c,
-            .expandButton_fb2f1c {
+            .avatarContainer__68617,
+            .expandButton__68617 {
                 border: $size-xs solid $cream;
                 width: 24px;
             }
 
-            .avatarIconOverlay_fb2f1c {
+            .avatarIconOverlay__68617 {
                 color: $cream;
-                .avatarIconRed_fb2f1c {
+                .avatarIconRed__68617 {
                     color: $red;
                 }
             }
@@ -68,13 +68,13 @@
         }
 
         // Voice chat options
-        .button_adcaac:not(.disabledButtonWrapper_dd4f85) {
+        .button_e131a9:not(.disabledButtonWrapper__201d5) {
             @include card.round;
         }
     }
 
     // Self panel
-    .container_b2ca13 {
+    .container__37e49 {
         // Username
         .title_d1da5f {
             font-family: var(--font-display);
@@ -84,18 +84,18 @@
     }
 
     .title_d1da5f,
-    .subtext_e06aad,
-    .button_f67531,
-    .button_f67531.enabled_f67531:hover {
+    .subtext__339d0,
+    .button__67645,
+    .button__67645.enabled__67645:hover {
         color: $cream;
     }
 
-    .lottieIcon_f73ef7.lottieIcon_f73ef7 path {
+    .lottieIcon__5eb9b.lottieIcon__5eb9b path {
         fill: $cream;
     }
 
-    .redIcon_b2ca13,
-    .strikethrough_b2ca13 {
+    .redIcon__37e49,
+    .strikethrough__37e49 {
         color: $red;
     }
 }

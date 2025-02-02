@@ -2,22 +2,22 @@
 @use "../../../top/filter";
 @use "../../../top/card";
 
-.notEnoughMembersError_cfaf72 {
+.notEnoughMembersError_bf485f {
     @include card.large;
 }
 
-.developerPortalCtaWrapper_cfaf72 {
+.developerPortalCtaWrapper_bf485f {
     background: unset;
 
-    .placeholderImage_cfaf72 {
+    .placeholderImage_bf485f {
         @include filter.sepia;
     }
 }
 
-.analyticsCard_d4b8cc {
+.analyticsCard__5931c {
     @include card.large;
 
-    @at-root .infoIcon_d4b8cc {
+    @at-root .infoIcon__5931c {
         color: $cream;
     }
 }

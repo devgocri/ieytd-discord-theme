@@ -1,9 +1,9 @@
 @use "../../../../top/vars" as *;
 @use "../../../../top/card";
 
-.caret_e1b877,
-.previewIcon_ac6678,
-.previewIcon_ac6678:hover {
+.caret__5dac8,
+.previewIcon_abee5f,
+.previewIcon_abee5f:hover {
     color: $cream;
 }
 
@@ -12,27 +12,27 @@
 }
 
 // Description
-.backgroundContainer_ceff93 {
+.backgroundContainer_eaaeee {
     background: unset;
     padding: 0;
 }
 
 // Server rule
-.fieldBackground_ceff93 {
+.fieldBackground_eaaeee {
     background: unset;
 }
 
 // Server rules
-.containerPadding_ceff93 {
+.containerPadding_eaaeee {
     padding: 0;
 
-    .termsFieldBody_bd5b94 {
+    .termsFieldBody_d48a51 {
         border: 0;
         padding: 0;
         margin-bottom: 16px;
     }
 
-    .fieldFooterContainer_ceff93 {
+    .fieldFooterContainer_eaaeee {
         @include card.round;
         width: fit-content;
         padding: $size-s $size-m;
@@ -43,12 +43,12 @@
     }
 }
 
-.containerFooter_ceff93 {
+.containerFooter_eaaeee {
     background: unset;
     padding: 0;
 
     // Remove rules
-    .removeButton_ceff93 {
+    .removeButton_eaaeee {
         color: $red;
     }
 }

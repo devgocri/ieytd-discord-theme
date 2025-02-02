@@ -2,10 +2,10 @@
 @use "../../top/card";
 
 // Add game to Registered Games
-#{$root} .addGamePopout_fd966d {
+#{$root} .addGamePopout_cc46f0 {
     @include card.outer;
 
-    .wrapper_f6639d {
+    .wrapper__3f413 {
         margin-bottom: $size-m;
     }
 }

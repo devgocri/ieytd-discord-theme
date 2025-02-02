@@ -2,22 +2,22 @@
 @use "../../../top/card";
 
 // Reacts
-:is(.reaction_f61c73, .reaction_ec6b19) {
+:is(.reaction_f8896c, .reaction__23977) {
     &,
     &:hover {
         @include card.round;
 
-        :is(.reactionCount_f61c73, .reactionCount_ec6b19) {
+        :is(.reactionCount_f8896c, .reactionCount__23977) {
             color: inherit;
         }
     }
 
     // Selected react
-    &:is(.reactionMe_f61c73, .reactionMe_ec6b19) {
+    &:is(.reactionMe_f8896c, .reactionMe__23977) {
         border-color: $cream;
         background: $cream;
 
-        :is(.reactionCount_f61c73, .reactionCount_ec6b19) {
+        :is(.reactionCount_f8896c, .reactionCount__23977) {
             color: $black;
         }
     }
@@ -27,15 +27,15 @@
         border-color: $red !important;
         background: $black !important;
 
-        :is(.reactionCount_f61c73, .reactionCount_ec6b19) {
+        :is(.reactionCount_f8896c, .reactionCount__23977) {
             color: $red !important;
         }
 
         // Selected super react
-        &:is(.reactionMe_f61c73, .reactionMe_ec6b19) {
+        &:is(.reactionMe_f8896c, .reactionMe__23977) {
             background: $red !important;
 
-            :is(.reactionCount_f61c73, .reactionCount_ec6b19) {
+            :is(.reactionCount_f8896c, .reactionCount__23977) {
                 color: $cream !important;
             }
         }
@@ -43,11 +43,11 @@
 }
 
 // Add reacts button
-.reactionBtn_f61c73 {
+.reactionBtn_f8896c {
     visibility: visible;
 
     &,
-    &:hover .icon_f61c73 {
+    &:hover .icon_f8896c {
         color: $cream;
     }
 }

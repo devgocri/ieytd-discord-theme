@@ -2,10 +2,10 @@
 @use "../../top/card";
 
 // On hover channel with threads
-.row_c5b389 {
+.row__76f04 {
     border-radius: $size-max;
     color: $cream;
-    .timestamp_c5b389 {
+    .timestamp__76f04 {
         color: $cream;
     }
 
@@ -13,13 +13,13 @@
         background: $cream;
         color: $black;
 
-        .timestamp_c5b389 {
+        .timestamp__76f04 {
             color: $black;
         }
     }
 }
 
-.more_c5b389 {
+.more__76f04 {
     border-top: 0;
     color: $red;
 }

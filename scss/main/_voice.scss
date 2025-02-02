@@ -4,20 +4,20 @@
 @use "../top/grabber";
 
 // Voice chat
-.root_dd069c {
+.root_bfe55a {
     border-left: $size-m solid $cream;
     color: $cream;
 
     // Evenly spaced tiles
-    .listItems_dcade6 {
+    .listItems_affa7e {
         left: 0 !important;
 
-        .row_d8e960 {
+        .row_d6271c {
             gap: $size-s;
             margin-bottom: $size-s;
         }
 
-        .tile_d8e960 {
+        .tile_d6271c {
             margin-right: 0;
             margin-bottom: 0;
         }
@@ -25,69 +25,69 @@
 }
 
 // Overall container
-.wrapper_d880dc.chatSidebarOpen_d880dc .callContainer_d880dc {
+.wrapper_cb9592.sidebarOpen_cb9592 .callContainer_cb9592 {
     border-radius: 0;
 }
 
 // Tile
-.tile_dc5fc4 {
+.tile__90dc5 {
     @include card.large;
 
     // Large tile
-    &.noBorder_dc5fc4 {
+    &.noBorder__90dc5 {
         border: 0;
     }
 
     // Disconnected
-    .header_e5cc00,
-    .description_e5cc00 {
+    .header_c6e099,
+    .description_c6e099 {
         color: $cream;
     }
 
     // Username
-    .overlayTitle_ba4b17,
-    .status_ba4b17 {
+    .overlayTitle__2f4f7,
+    .status__2f4f7 {
         @include card.round;
         border: 0;
     }
 
     // Video icon
-    .selectedIcon_ba4b17 {
+    .selectedIcon__2f4f7 {
         color: $cream;
     }
 
     // Stream, video
-    .streamPreview_ba4b17,
-    .videoWrapper_ba4b17,
-    .emptyPreview_eb1d8c {
+    .streamPreview__2f4f7,
+    .videoWrapper__2f4f7,
+    .emptyPreview__48b20 {
         background: unset;
     }
 }
 
 // Participant list toggle
-.participantsButton_b83b18 {
+.participantsButton__211d1 {
     @include card.round;
 
     &:hover {
         background: $black;
     }
 
-    .iconContainer_b83b18 > svg {
+    .iconContainer__211d1 > svg {
         color: $cream;
     }
 }
 
 // Voice chat controls
-.bottomControls_dd069c {
+.bottomControls_bfe55a {
     // Centre buttons
-    .colorable_ef18ee {
-        &.primaryDark_ef18ee {
+    .colorable_f1ceac {
+        &.primaryDark_f1ceac {
             @include button.control($black, $cream);
         }
-        &.white_ef18ee {
+        &.white_f1ceac {
             @include button.control($cream, $black);
         }
-        &.red_ef18ee {
+        &.red_f1ceac {
             @include button.control($black, $red);
         }
     }

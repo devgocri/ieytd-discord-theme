@@ -5,45 +5,45 @@
 // 5. Review
 
 // Outer
-.content_addbba,
-.notice_addbba {
+.content_a9b452,
+.notice_a9b452 {
     @include card.large;
     margin-top: $size-l;
 }
 
-.reviewHeader_addbba,
-.onboardingStepContainer_a85c10,
-.iconContainer_a85c10,
-.helpSeparator_addbba {
+.reviewHeader_a9b452,
+.onboardingStepContainer__28e57,
+.iconContainer__28e57,
+.helpSeparator_a9b452 {
     background: unset;
 }
 
-.wumpus_addbba {
+.wumpus_a9b452 {
     @include filter.sepia;
 }
 
 // Toggle on/off
-.review_addbba {
+.review_a9b452 {
     background: unset;
     margin-top: 0;
 }
 
 // Channel icon
-.channelIcon_a85c10 {
+.channelIcon__28e57 {
     color: $cream;
     zoom: 2;
 }
 
 // Requirement checks
-.checkmark_a85c10,
-.warning_a85c10 {
+.checkmark__28e57,
+.warning__28e57 {
     color: $cream;
 }
 
-.danger_a85c10 {
+.danger__28e57 {
     color: $red;
 
-    & + .statusText_a85c10 {
+    & + .statusText__28e57 {
         color: $red !important;
     }
 }

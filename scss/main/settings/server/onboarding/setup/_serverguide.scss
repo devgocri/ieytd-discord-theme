@@ -5,18 +5,18 @@
 // 4. Server guide
 
 // Example
-.previewImage_e88228 {
+.previewImage_d2b0e4 {
     @include filter.sepia;
 }
 
 // Sliding toggle
-.pillContainer_a18ec1 {
+.pillContainer__9e06a {
     @include card.round;
 
-    .pillItem_a18ec1 {
+    .pillItem__9e06a {
         color: $cream;
 
-        &.pillItemSelected_a18ec1 {
+        &.pillItemSelected__9e06a {
             background: $cream;
             color: $black;
             border-radius: $size-max;
@@ -25,22 +25,22 @@
 }
 
 // Add item centerer
-.section_e88228,
-.editResources_e88228 {
+.section_d2b0e4,
+.editResources_d2b0e4 {
     display: flex;
     flex-direction: column;
 }
 
 // Welcome sign preview
-.editWelcomeSection_e88228 {
+.editWelcomeSection_d2b0e4 {
     margin-top: 12px;
 
-    @at-root .welcomeMessageContent_a1289e {
+    @at-root .welcomeMessageContent__6f212 {
         @include card.large;
         padding-top: 16px;
     }
 
-    @at-root .editWelcomeButton_e88228 {
+    @at-root .editWelcomeButton_d2b0e4 {
         @include card.round;
         padding: 2px 4px;
 
@@ -51,20 +51,20 @@
 }
 
 // Bad example
-.example_e88228 {
+.example_d2b0e4 {
     @include card.large;
     border-color: $red;
     color: $red;
 }
 
 // Todo
-.actionItem_e88228 {
+.actionItem_d2b0e4 {
     @include card.large;
     padding-left: 32px;
 }
 
-.actionItemEmojiWrapper_e88228,
-.badExampleIcon_e88228 {
+.actionItemEmojiWrapper_d2b0e4,
+.badExampleIcon_d2b0e4 {
     color: inherit;
     background: unset;
     padding: 0;
@@ -82,7 +82,7 @@
 }
 
 // Add todo
-.addActionItem_e88228 {
+.addActionItem_d2b0e4 {
     @include card.round;
     padding: $size-m $size-xl;
     width: fit-content;
@@ -94,19 +94,19 @@
 }
 
 // Resource benefits
-.bulletList_e88228 {
+.bulletList_d2b0e4 {
     color: $cream;
 }
 
 // Suggested channels
-.suggestedChannelsSection_e88228 {
-    @at-root .suggestedChannelsDismissCheck_e88228 {
+.suggestedChannelsSection_d2b0e4 {
+    @at-root .suggestedChannelsDismissCheck_d2b0e4 {
         color: $cream;
     }
-    @at-root .suggestedChannels_e88228 {
+    @at-root .suggestedChannels_d2b0e4 {
         @include card.large;
 
-        .suggestedChannelIcon_e88228 {
+        .suggestedChannelIcon_d2b0e4 {
             color: $cream;
             zoom: 1.5;
             margin-right: 0;
@@ -115,11 +115,11 @@
 }
 
 // Resource channel
-.resourceChannel_e88228 {
+.resourceChannel_d2b0e4 {
     @include card.large;
     padding-left: 32px;
 }
 
-.sectionSeparator_e88228 {
+.sectionSeparator_d2b0e4 {
     display: none;
 }

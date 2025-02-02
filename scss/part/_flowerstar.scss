@@ -1,15 +1,15 @@
 @use "../top/vars" as *;
 
-.flowerStarContainer_ff7d90 {
+.flowerStarContainer__3e3b0 {
     // Outer
-    .flowerStar_ff7d90 {
+    .flowerStar__3e3b0 {
         path {
             fill: $cream;
         }
     }
 
     // Inner
-    .childContainer_ff7d90 path {
+    .childContainer__3e3b0 path {
         fill: $black;
     }
 }

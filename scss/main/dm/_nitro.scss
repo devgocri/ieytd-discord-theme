@@ -2,7 +2,7 @@
 @use "../../top/card";
 @use "../../top/filter";
 
-.applicationStore_cecc86 .scroller_a8b566 {
+.applicationStore_f07d62 .scroller_c880e8 {
     background: $black;
 }
 
@@ -14,20 +14,20 @@
 
 .ctaWrapper-4Js5Q6,
 .ctaButtonInner-2VRelf,
-.checkmarkIcon_b1bbf4,
+.checkmarkIcon_e4ef5c,
 .closeIcon-3aZ-RA {
     color: $cream;
 }
 
 .heroHeading-2yVSUj,
-.pricePerInterval_af8f09,
+.pricePerInterval_fd0764,
 .ctaCopy-1CkXTE,
 .perksGridFeatureHeading-3wq2Tn,
 .existingSubscriberSpacing-3auAAB div {
     color: $cream !important;
 }
 
-.icon_c87d73 {
+.icon_ac86f6 {
     color: $red;
     height: 20px;
     width: 20px;
@@ -38,10 +38,10 @@
 .ctaWrapperTier2-1hk2M8 .ctaImages-1s97vM,
 .ctaWrapperTier0-1GlgHE .ctaImages-1s97vM,
 .featureImage-91H2fC,
-.root_a3b6be,
-.wumpusImageContainer_c87d73,
-.perksCardArt_d611db,
-.logo_b1bbf4 {
+.root__52b47,
+.wumpusImageContainer_ac86f6,
+.perksCardArt_b62c4e,
+.logo_e4ef5c {
     @include filter.sepia;
 }
 
@@ -66,16 +66,16 @@
     }
 }
 
-.card_c21997 {
+.card_f8e6bf {
     @include card.xlarge;
 
-    .cardDescription_ad9ad8 {
+    .cardDescription__1f069 {
         background: linear-gradient(black, transparent);
     }
 }
 
-.tier0_c87d73,
-.tier2_c87d73,
+.tier0_ac86f6,
+.tier2_ac86f6,
 .bigPerkCard-1uwmWV,
 .smallPerkCard-2sX_-- {
     @include card.xlarge;
@@ -83,27 +83,27 @@
     overflow: visible;
 }
 
-.tier0_c87d73.withTier0Rim_c87d73::before,
-.tier2_c87d73.withTier2Rim_c87d73::before {
+.tier0_ac86f6.withTier0Rim_ac86f6::before,
+.tier2_ac86f6.withTier2Rim_ac86f6::before {
     display: none;
 }
 
-.rowBottomBorder_b1bbf4 {
+.rowBottomBorder_e4ef5c {
     border-bottom: 0;
 }
 
-.tier2ColumnOuter_b1bbf4 {
+.tier2ColumnOuter_e4ef5c {
     border-color: $red;
 }
 
 .bogoPillWithSparkles-2cfttm,
 .freeTrialPillWithSparkles-3fINgJ,
-.freeTrialPillWithSparkles_c87d73 {
+.freeTrialPillWithSparkles_ac86f6 {
     path {
         fill: $cream;
     }
 
-    .freeTrialPill_c87d73 {
+    .freeTrialPill_ac86f6 {
         background: $red;
 
         div {

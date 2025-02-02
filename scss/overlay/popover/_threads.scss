@@ -4,55 +4,55 @@
 
 // Threads in current channel
 
-.container_e664f3 {
+.container_d9c882 {
     background: $black;
     @include card.outer;
 }
 
 // Header
-.header_e664f3 {
+.header_d9c882 {
     height: auto;
     min-height: unset;
     padding: 12px 16px;
 
-    .searchBox_e664f3 {
+    .searchBox_d9c882 {
         @include card.round;
     }
 
-    .closeIcon_e664f3,
-    .threadIcon_e664f3 {
+    .closeIcon_d9c882,
+    .threadIcon_d9c882 {
         color: $cream;
     }
 
-    .divider_e664f3 {
+    .divider_d9c882 {
         display: none;
     }
 }
 
 // Thread
-.container_acb8b3 {
+.container__6764b {
     @include card.large;
 
     &:hover {
         border-color: $cream;
     }
 
-    .threadName_acb8b3 {
+    .threadName__6764b {
         color: $cream;
     }
 
-    .moreUsers_c47562,
-    .noAvatarIcon_acb8b3 {
+    .moreUsers__183c2,
+    .noAvatarIcon__6764b {
         background: $cream;
         color: $black;
     }
 }
 
 // No threads
-.icon_ebd74a {
+.icon__1b24f {
     background: $cream;
     color: $black;
 }
-.stars_ebd74a {
+.stars__1b24f {
     @include filter.sepia;
 }

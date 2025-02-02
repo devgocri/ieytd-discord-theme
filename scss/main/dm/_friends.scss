@@ -6,14 +6,14 @@
 // Friends panel
 
 // Header
-.container_e44302 {
-    .topPill_a0 {
+.container__9293f {
+    .topPill_b3f026 {
         padding-top: 0;
         position: relative;
         margin-bottom: -9px;
     }
 
-    .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c {
+    .addFriend__133bf.addFriend__133bf.addFriend__133bf {
         @include tabs.tab($ISINVERT: true);
 
         &[aria-selected="true"] {
@@ -23,11 +23,11 @@
 }
 
 // Main panel
-.peopleColumn_c2739c {
+.peopleColumn__133bf {
     background: $black;
 
     // Search bar
-    .searchBar_e0840f {
+    .searchBar__5ec2f {
         background: $red;
         margin: 0;
         border-radius: 0;
@@ -39,19 +39,19 @@
     }
 
     // Title
-    .sectionTitle_e0840f {
+    .sectionTitle__5ec2f {
         background: $red;
         border-bottom: $size-s solid $cream;
-        .title_a1cafe {
+        .title__1472a {
             color: $black;
             margin: 0 0 $size-m;
         }
     }
 
     // Users
-    .peopleList_e0840f {
+    .peopleList__5ec2f {
         margin-top: 0;
-        .content_eed6a8 {
+        .content__99f8c {
             display: flex;
             flex-direction: column;
             gap: $size-m;
@@ -60,32 +60,32 @@
 
     // User
     :is(
-            .peopleListItem_d51464,
-            .peopleListItem_d51464.active_d51464 + .peopleListItem_d51464,
-            .peopleListItem_d51464:hover + .peopleListItem_d51464
-        ) {
+        .peopleListItem_cc6179,
+        .peopleListItem_cc6179.active_cc6179 + .peopleListItem_cc6179,
+        .peopleListItem_cc6179:hover + .peopleListItem_cc6179
+    ) {
         @include card.large;
         margin: 0 $size-m;
         padding: 16px $size-m;
 
         // Text
-        :is(.username_f3939d, .discriminator_f3939d, .text_f7ebfd, .icon_ad923e, .icon_e01b91, .subtext_f3939d) {
+        :is(.username__0a06e, .discriminator__0a06e, .text__19b6d, .icon_c9d15c, .icon_f8fa06, .subtext__0a06e) {
             color: $cream;
         }
 
         // Name
-        .username_f3939d {
+        .username__0a06e {
             font-family: var(--font-display);
             margin-top: -0.2rem;
         }
 
         // Discrim
-        .discriminator_f3939d {
+        .discriminator__0a06e {
             visibility: visible;
         }
 
         // Message button
-        .actionButton_e01b91 {
+        .actionButton_f8fa06 {
             background: unset;
 
             &:first-child {
@@ -94,32 +94,32 @@
         }
     }
 
-    .header_c96274 {
+    .header__94b08 {
         border-bottom: 0;
 
         // Add friend search
-        .addFriendInputWrapper_de812f {
+        .addFriendInputWrapper__72ba7 {
             padding: 0;
             background: unset;
             border: 0;
         }
 
-        .input_de812f {
+        .input__72ba7 {
             padding-left: $size-m;
         }
     }
 
     // Explore discoverable
-    .container_aef5fd {
+    .container_a14595 {
         @include card.round;
         padding: 0;
 
-        .icon_aef5fd {
+        .icon_a14595 {
             border-radius: $size-max;
             @include filter.sepia;
         }
 
-        .arrow_aef5fd {
+        .arrow_a14595 {
             &,
             &:hover {
                 color: $cream;
@@ -134,17 +134,17 @@
 }
 
 // Active now sidebar
-.container_bf550a {
+.container__7d20c {
     background: $red;
     border-left: $size-m solid $cream;
 
-    .scroller_bf550a {
+    .scroller__7d20c {
         border-left: 0;
         padding-top: 0;
     }
 
     // Header
-    .header_bf550a {
+    .header__7d20c {
         text-transform: uppercase;
         font-style: oblique;
         color: $black;
@@ -153,23 +153,23 @@
     }
 
     // User card
-    .itemCard_f02fcf {
+    .itemCard__7e549 {
         @include card.xlarge;
 
         &,
-        &.outer_c0f6a6:hover {
+        &.outer_bf1984:hover {
             background: $black;
         }
 
         // Game
-        .inset_c0f6a6 {
+        .inset_bf1984 {
             background: unset;
             border: $size-xs solid $cream;
             border-radius: $size-l $size-l 0 0;
             border-bottom: 0;
             margin-bottom: -16px;
 
-            .section_cd82a7 {
+            .section__00943 {
                 background: unset;
                 border-radius: 0;
             }
@@ -177,17 +177,17 @@
 
         // Text
         .defaultColor__77578,
-        .textContent_cd82a7 {
+        .textContent__00943 {
             color: $cream !important;
         }
     }
 
     // No activity
-    .emptyCard_f02fcf {
+    .emptyCard__7e549 {
         @include card.xlarge;
         background: $black;
 
-        .emptyText_f02fcf {
+        .emptyText__7e549 {
             color: $cream;
         }
     }

@@ -1,38 +1,38 @@
 @use "../top/vars" as *;
 @use "../top/tabs";
 
-.searchResultsWrap_c2b47d {
+.searchResultsWrap_a9e706 {
     border-left: $size-m solid $cream;
     background: $black;
 
-    .scroller_c2b47d {
+    .scroller_a9e706 {
         overflow: hidden scroll !important;
     }
 }
 
 // Results header
-.searchHeader_b7c924 {
+.searchHeader_f3b986 {
     background: $red;
     padding: 0 $size-l;
     height: auto;
 
-    .totalResults_b7c924 div {
+    .totalResults_f3b986 div {
         color: $black !important;
     }
 
-    .searchHeaderTabList_b7c924 {
+    .searchHeaderTabList_f3b986 {
         padding-top: $size-m;
     }
 
-    .item_a0.themed_a0 {
+    .item_b3f026.themed_b3f026 {
         &,
-        &:hover:not(.disabled_a0) {
+        &:hover:not(.disabled_b3f026) {
             @include tabs.tab($ISINVERT: true);
         }
 
-        &.selected_a0 {
+        &.selected_b3f026 {
             &,
-            &:hover:not(.disabled_a0) {
+            &:hover:not(.disabled_b3f026) {
                 @include tabs.tab;
             }
         }
@@ -40,13 +40,13 @@
 }
 
 // Channel name
-.channelNameContainer_a9e225 {
+.channelNameContainer_c68065 {
     position: sticky;
     top: $size-xxs;
 
-    .channelNameIcon_a9e225,
-    .channelNameText_a9e225,
-    .parentChannelNameIcon_a9e225 {
+    .channelNameIcon_c68065,
+    .channelNameText_c68065,
+    .parentChannelNameIcon_c68065 {
         color: $cream;
     }
 
@@ -56,11 +56,11 @@
 }
 
 // Message
-.searchResult_ddc613 {
+.searchResult__02a39 {
     background: unset;
 }
 
 // Jump
-.button_ddc613 {
+.button__02a39 {
     display: none;
 }

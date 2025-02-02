@@ -3,29 +3,29 @@
 @use "../top/filter";
 
 // Channels & Roles
-#{$root} .emptyPage_c6b11b,
+#{$root} .emptyPage__5d7c9,
 #{$root} .scrollerContainer_c6b11b,
 #{$root} .container_c2efea,
-.scroller_c6b11b {
+.scroller__5d7c9 {
     background: unset;
 }
 
 // Customisation question
-.prompt_c6b11b {
+.prompt__5d7c9 {
     @include card.large;
     overflow: unset;
     border-color: $cream !important;
 
     // Required answer
-    .required_c6b11b {
+    .required__5d7c9 {
         color: $red;
-        &.error_c6b11b {
+        &.error__5d7c9 {
             text-decoration-color: $red;
         }
     }
 
     // Role
-    .helpText_c6b11b {
+    .helpText__5d7c9 {
         align-items: baseline;
         div {
             border-radius: $size-max;
@@ -35,7 +35,7 @@
     }
 
     // Dropdown
-    .select_fb76b2 {
+    .select_d48ec6 {
         // Top
         .css-llyypf,
         .css-mb2az-placeholder,
@@ -65,18 +65,18 @@
 }
 
 // Profile preview
-.profileCard_c6b11b {
+.profileCard__5d7c9 {
     @include card.xlarge;
 
-    .separator_c6b11b {
+    .separator__5d7c9 {
         display: none;
     }
 
-    .title_c6b11b {
+    .title__5d7c9 {
         margin-top: $size-m;
     }
 
-    .role_c6b11b {
+    .role__5d7c9 {
         background: $cream;
         color: $black;
 
@@ -87,44 +87,44 @@
 }
 
 // Browse channels
-.search_c2efea {
+.search__41ed7 {
     @include card.round;
 }
 
 // Tip banner
-.container_b55df8 {
+.container_bc0d35 {
     @include card.large;
 
-    .image_b55df8 {
+    .image_bc0d35 {
         @include filter.sepia;
     }
 
-    .closeButton_b55df8 {
+    .closeButton_bc0d35 {
         color: $cream;
     }
 }
 
 // Channel
-.channelRow_f04d06 {
+.channelRow_e4503a {
     @include card.large;
 
-    &:hover:not(.disabled_f04d06) {
+    &:hover:not(.disabled_e4503a) {
         background: unset;
     }
 
-    &:not(.firstChannel_f04d06) {
+    &:not(.firstChannel_e4503a) {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-top: 0;
     }
 
-    &:not(.lastChannel_f04d06) {
+    &:not(.lastChannel_e4503a) {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         border-bottom: 0;
     }
 }
 
-.separator_f04d06 {
+.separator_e4503a {
     display: none;
 }

@@ -26,9 +26,9 @@
 }
 
 code,
-.markup_d6076c code.inline,
-.codeBlockText_cdb578,
-.codeLine_cdb578 {
+.markup__75297 code.inline,
+.codeBlockText_ada32f,
+.codeLine_ada32f {
     font-family: var(--font-code);
 }
 
@@ -39,32 +39,32 @@ code,
 .eyebrow_f92eb2,
 .eyebrow_c15ff6,
 .eyebrow__5d57b,
-.eyebrow_e17fae,
-.eyebrow_c46f6a,
+.eyebrow_a7acae,
+.eyebrow_b717a1,
 .eyebrow_e5a66c,
-.eyebrow_dc00ef,
+.eyebrow_cf4812,
 [class*="heading-deprecated-12-"] {
     @include text.sizeup(12px, 16px);
 }
 
-.markup_d6076c h3,
+.markup__75297 h3,
 [class*="heading-sm-"] {
     @include text.sizeup(14px, 18px);
 }
 
-.h3_c46f6a {
+.h3_b717a1 {
     @include text.sizeup(16px, 24px);
 }
 
-.h2_c46f6a,
-.h4_c46f6a,
+.h2_b717a1,
+.h4_b717a1,
 [class*="heading-md-"] {
     @include text.sizeup(16px, 20px);
 }
 
-.markup_d6076c h2,
-.h1_c46f6a,
-.userTag_b69b77,
+.markup__75297 h2,
+.h1_b717a1,
+.userTag__1fed1,
 [class*="heading-lg-"] {
     @include text.sizeup(20px, 24px, 12px);
 }
@@ -73,48 +73,48 @@ code,
     @include text.sizeup(24px, 30px, 12px);
 }
 
-.markup_d6076c h1,
+.markup__75297 h1,
 [class*="heading-xxl-"] {
     @include text.sizeup(32px, 40px, 12px);
 }
 
 .defaultColor_e9e35f,
 .defaultColor__77578,
-.defaultColor_c46f6a,
-.colorStandard_fbc755,
-.description_b89ec7,
-.labelDescriptor_b89ec7,
-.h5_c46f6a,
-.label_c46f6a,
-.legend_c46f6a,
-.markup_d6076c,
-.title_ed1d57,
-.userTag_b69b77,
-.base_d0da3e,
-.channelName_fef602,
-.sourceName_c26824,
-.imageUploader_de76e4 .sizeInfo_de76e4,
+.defaultColor_b717a1,
+.colorStandard_c9946a,
+.description_ddd181,
+.labelDescriptor_ddd181,
+.h5_b717a1,
+.label_b717a1,
+.legend_b717a1,
+.markup__75297,
+.title__0d850,
+.userTag__1fed1,
+.base_eb1a4c,
+.channelName__5df34,
+.sourceName_ebafdd,
+.imageUploader_e4d0bf .sizeInfo_e4d0bf,
 #{$root} .inputDefault__591c7,
-.guildSource_c26824,
+.guildSource_ebafdd,
 #{$root} .hiddenMessage_e7355b,
-.body_ac90a2,
-.input_effbe2 {
+.body__45690,
+.input_fea832 {
     color: $cream;
 }
 
-.description_e72811,
-.helpText_e72811,
-.titleText_c69589,
+.description_db0ee9,
+.helpText_db0ee9,
+.titleText__81b3e,
 :is(h1, h2, h3, h4),
-:is(span, div):not(.desaturateUserColors_c7819f, .username_d272d6, .username_ec86aa, .username_cdc675) {
+:is(span, div):not(.desaturateUserColors__41f68, .username_d272d6, .username_c19a55, .username__07f91) {
     &:where([style^="color"]) {
         color: $cream !important;
     }
 }
 
-.anchor_af404b,
+.anchor_edefb8,
 a,
-.markup_d6076c a {
+.markup__75297 a {
     color: $red;
 }
 

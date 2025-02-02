@@ -31,7 +31,7 @@
     }
 
     // Server
-    .card_eb1ca6 {
+    .card_e90879 {
         @include card.large;
 
         &,
@@ -40,17 +40,17 @@
             background: $black;
             transform: none;
 
-            .iconMask_eb1ca6 {
+            .iconMask_e90879 {
                 background: $black;
             }
 
-            .splash_eb1ca6 {
+            .splash_e90879 {
                 transform: none;
             }
         }
 
         // Icon
-        .guildIcon_eb1ca6 {
+        .guildIcon_e90879 {
             border-radius: $size-max;
             overflow: hidden;
 
@@ -64,26 +64,26 @@
         }
 
         // More actions
-        .actionButtons_eb1ca6 {
+        .actionButtons_e90879 {
             top: 145px;
             right: $size-s;
         }
 
         // Name
-        .title_eb1ca6 {
+        .title_e90879 {
             align-items: baseline;
             overflow: visible;
 
-            .guildName_eb1ca6 {
+            .guildName_e90879 {
                 overflow: visible;
             }
         }
 
         // Dot
-        .dotOnline_eb1ca6 {
+        .dotOnline_e90879 {
             background: $cream;
         }
-        .dotOffline_eb1ca6 {
+        .dotOffline_e90879 {
             &::before {
                 @include status.dot;
                 margin: 2px;

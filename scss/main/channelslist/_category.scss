@@ -1,20 +1,20 @@
 @use "../../top/vars" as *;
 
 // Channel category
-.icon_a08117 {
+.icon__29444 {
     color: $black;
     width: 20px;
     height: 20px;
 }
 
-:is(.icon_a08117, .name_a08117) {
-    .wrapper_a08117.muted_a08117 & {
+:is(.icon__29444, .name__29444) {
+    .wrapper__29444.muted__29444 & {
         color: $black;
         opacity: 0.6;
     }
 
-    .wrapper_a08117:hover &,
-    .wrapper_a08117.muted_a08117:hover & {
+    .wrapper__29444:hover &,
+    .wrapper__29444.muted__29444:hover & {
         color: $black;
     }
 }
