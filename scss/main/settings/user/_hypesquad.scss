@@ -1,10 +1,4 @@
 @use "../../../top/vars" as *;
-@use "../../../top/filter";
-
-.emptyStateImage_d4883c {
-    @include filter.sepia;
-}
-@use "../../../top/vars" as *;
 @use "../../../top/card";
 @use "../../../top/filter";
 
@@ -48,11 +42,4 @@
 
 .videoWrapper__56ac8 {
     background: unset;
-}
-
-#{$root} {
-    .emptyStateHeader_d4883c,
-    .emptyStateSubtext_d4883c {
-        color: $cream;
-    }
 }
